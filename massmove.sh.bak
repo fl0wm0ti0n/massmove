@@ -1,0 +1,366 @@
+#!/bin/bash
+before=$(date +%s)
+export DELETEGLOBAL=0
+#-----------------------------------------------------------------------------------------
+#FUNKTION 
+function printout
+{
+	SERIE_2=$1
+	STNR_2=$2
+	EPNR=$3
+	EXTFOLGE=$4
+	PCHECK=1
+	
+	echo ">>>>Printout<<<<"
+	echo "$EPNR"
+	EPNR=$(echo $EPNR | sed "s/^0*//")
+	let EPNR2=EPNR+1
+	echo "eins: " $EPNR
+	echo "zwei: " $EPNR2
+	echo "$EXTFOLGE"
+
+#Prüfe ob dobbelfolge oder nicht
+	STRING=${#EPNR}
+	if [ "$STRING" -eq 3 ]; then
+		echo "dreistellig"
+		echo "$EXTFOLGE" | grep -E -i "$EPNR2"
+		EPCHK=$?		
+		STCHK=$(echo $EPNR | cut -b 1)
+		echo "$STCHK"
+		echo "$STNR_2"
+		if [ "$STNR_2" == "$STCHK" ]; then
+			EPNR2=${EPNR2:1}
+			EPNR=${EPNR:1}
+		fi
+			EPNR=$( echo $EPNR | sed "s/^0*//" )
+			EPNR2=$( echo $EPNR2 | sed "s/^0*//" )
+	else
+		echo "zweistellig mit E"
+		echo "$EXTFOLGE" | grep -E -i "([efx\-]|ep\.?)$EPNR2"
+		EPCHK=$?
+	fi
+
+	if [ $EPCHK -eq 0 ]; then
+		echo "*********************************************"
+		if [ -z $STNR_2 ]; then
+			printf "%s - E%02dE%02d\n" "$(basename "$SERIE_2")" "$EPNR" "$EPNR2"
+			PCHECK=0
+		else
+			printf "%s - S%02dE%02dE%02d\n" "$(basename "$SERIE_2")" "$STNR_2" "$EPNR" "$EPNR2"
+			PCHECK=0
+		fi
+		echo "*********************************************"
+	else
+		echo "*********************************************"
+		if [ -z $STNR_2 ]; then
+			printf "%s - E%02d\n" "$(basename "$SERIE_2")" "$EPNR"
+			PCHECK=0
+		else
+			printf "%s - S%02dE%02d\n" "$(basename "$SERIE_2")" "$STNR_2" "$EPNR"
+			PCHECK=0
+		fi
+		echo "*********************************************"
+	fi
+	taufe
+	return $PCHECK
+}
+#-----------------------------------------------------------------------------------------
+#FUNKTION EPNR säubern
+function GetEPNR
+{
+	FOLGE_1=$1
+	EXTFOLGE=$2
+	
+	EPNR=$(echo "$EXTFOLGE" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
+	FRES=$?
+	EPNR=$(echo $EPNR | sed q )
+	EPNR=$(echo $EPNR | sed "s/^0*//")
+#	echo "FRES: " $FRES " | " $EPNR
+	if [ $FRES -eq 1 ]; then
+#	prüfe ob ordnername richtig 
+		DIRSTRING=$( dirname "$FOLGE_1" )
+		DIRSTRING=$( basename "$DIRSTRING" )
+		
+		EXTFOLGE=${EXTFOLGE//1080p/}
+		EXTFOLGE=${EXTFOLGE//18p/}
+		EXTFOLGE=${EXTFOLGE//720p/}
+		EXTFOLGE=${EXTFOLGE//72p/}
+		EXTFOLGE=${EXTFOLGE//7p/}
+#		EXTFOLGE=${EXTFOLGE//51/}
+ #		echo "$EXTFOLGE" | sed "/([efx]|ep\.?)[0-9]?51/!s/51//"
+		EXTFOLGE=${EXTFOLGE//x264/}
+		EXTFOLGE=${EXTFOLGE//h264/}	
+		
+		EPNR=$(echo "$DIRSTRING" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
+		ORES=$?
+		EPNR=$(echo $EPNR | sed q )
+		EPNR=$(echo $EPNR | sed "s/^0*//")
+#		echo "ORES: " $ORES " | " $EPNR
+		if [ $ORES -eq 1 ]; then
+			EPNRCHECK=1
+		else
+			EPNRCHECK=0
+		fi
+	else
+		EPNRCHECK=0
+	fi
+	echo "$EPNR"
+	return $EPNRCHECK
+}
+#-----------------------------------------------------------------------------------------
+#FUNKTION Episode herausfinden
+function getname
+{
+	FOLGE_1=$1
+	STNR_1=$(echo $2 | sed "s/^0*//")
+	SERIE_1=$3
+	
+#	echo "$STNR_1" | sed "s/[0-9]\+\-[0-9]\+//"
+# echo "STNRX" "$STNR_1"
+  
+  echo ">>>>GetName<<<<"
+#	prüfe ob Dateiname richtig 
+	EXTFOLGE=$(basename "$FOLGE_1")
+#	if [ $STNR_1 -ne 1 -a "$FOLGE_1" -ne 8 ]; then
+#			EXTFOLGE=${EXTFOLGE//108p/}
+#	fi
+	EXTFOLGE=${EXTFOLGE//1080p/}
+	EXTFOLGE=${EXTFOLGE//18p/}
+	EXTFOLGE=${EXTFOLGE//720p/}
+	EXTFOLGE=${EXTFOLGE//72p/}
+	EXTFOLGE=${EXTFOLGE//7p/}
+#	EXTFOLGE=${EXTFOLGE//51/}
+# 	echo "$EXTFOLGE" | sed "/([efx]|ep\.?)[0-9]?51/!s/51//"
+	EXTFOLGE=${EXTFOLGE//x264/}
+	EXTFOLGE=${EXTFOLGE//h264/}
+	#echo $EXTFOLGE
+	echo ">>>>getEPNR<<<<"
+	EPNR=$(GetEPNR "$FOLGE_1" "$EXTFOLGE")
+	CHK=$?
+	echo "$EPNR"
+	if [ $CHK -eq 0 ]; then		
+		printout "$SERIE_1" "$STNR_1" "$EPNR" "$EXTFOLGE"
+	else
+#			zweistellig
+#	  EPNR=$(basename "$EXTFOLGE" | sed "s/[^0-9]//g" | cut -d " " -f 2 )
+ 	  echo "$EXTFOLGE"
+		EPNR=$(basename "$EXTFOLGE" | grep -E -o -i "[0-9][0-9]{0,2}" | sed q)
+	  echo "$EPNR"
+		if [[ $EPNR =~ ^[0-9]{1,2}$ ]]; then
+			echo "2stellen: " $EPNR
+			EPNR=$( echo $EPNR | sed "s/^0*//" )
+			printout "$SERIE_1" "$STNR_1" "$EPNR" "$EXTFOLGE"
+		else
+#				dreistellig
+			if [[ $EPNR =~ ^[0-9]{1,3}$ ]]; then
+#				EPNR=${EPNR:1}
+#				EPNR=$( echo $EPNR | sed "s/^0*//" )
+				echo "3stellen: " $EPNR
+				printout "$SERIE_1" "$STNR_1" "$EPNR" "$EXTFOLGE"
+			else
+				logging "$STAFFEL" "nichts" "$SERIE" "3"
+			fi
+		fi
+	fi
+}
+#-----------------------------------------------------------------------------------------
+# check Dateityp und Größe
+function checkSizeType
+{
+	echo ">>>>CheckSizeType<<<<"
+	FILE="$1"
+	file "$FILE" | grep -i -e video -e ebml -e Matroska -e MPEG >/dev/null
+  if [ $? -eq 1 ]; then
+  	DTYPE=${$FILE/*./}
+  	grep -i $DTYPE ./dtyplist.txt >/dev/null
+  fi
+	
+  if [ $? -eq 0 ]; then
+#prüfe ob datei kein Sample (größe der Datei)
+		SIZE=$( stat -c %s "$FILE" )
+		echo "-->" $SIZE " byte"
+    if [ $SIZE -gt 20000000 ]; then
+   		echo "Videodatei: " $(basename "$FILE")
+   		FCHECK=0
+   	else
+   		echo "Sample: " $(basename "$FILE")
+   		FCHECK=1
+   		logging "$FILE" "$STNR" "$SERIE" "4"
+   		DELETEGLOBAL=$(expr $DELETEGLOBAL + $SIZE)
+			#entferne Sample Sofort? NACHDENKEN!!
+   	fi
+  else
+		echo "keine Video Datei: " $(basename "$FILE")
+		file "$FILE" | grep -i  -e RAR -e archive >/dev/null
+		if [ $? -eq 0 ]; then
+			logging "$FILE" "$STNR" "$SERIE" "5"
+		else
+			logging "$FILE" "$STNR" "$SERIE" "4"
+   		DELETEGLOBAL=$(expr $DELETEGLOBAL + $SIZE)
+			#entferne Datei Sofort? NACHDENKEN!!
+		fi
+		FCHECK=1
+	fi
+	return $FCHECK
+}
+#-----------------------------------------------------------------------------------------
+#FUNKTION Datei auf richtigkeit prüfen
+function checkfile
+{
+	echo ">>>>Checkfile<<<<"
+	CHFOLGE=$1
+	STNR_1=$2
+	SERIE_1=$3
+	
+	if [ -d "$CHFOLGE" ]; then
+		find "$CHFOLGE" -type f | while read FILE
+		do
+			checkSizeType "$FILE"
+			if [ $? -eq 0 ]; then
+				getname "$FILE" "$STNR_1" "$SERIE_1"
+#				if [ $? -eq 0 ]; then
+#					FCHECK=0
+#				else
+#					FCHECK=1
+#				fi
+			fi
+		done
+	else
+		echo "kein Ordner: " $(basename "$CHFOLGE")
+		checkSizeType "$CHFOLGE"
+		if [ $? -eq 0 ]; then
+			getname "$FILE" "$STNR_1" "$SERIE_1"
+#			if [ $? -eq 0 ]; then
+#				FCHECK=0
+#			else
+#				FCHECK=1
+#			fi
+		else
+			logging "$CHFOLGE" "$STNR" "$SERIE" "4"
+		fi
+	fi
+#	echo $FCHECK
+	return $FCHECK
+}
+#-----------------------------------------------------------------------------------------
+#FUNKTION Staffel Ordner auf richtigkeit prüfen
+function checkseason
+{
+	CHSTAFFEL=$1
+	
+	if [ -d "$CHSTAFFEL" ]; then
+		STNR=$(basename "$CHSTAFFEL")
+		STNR=${STNR//720p/}
+		STNR=${STNR//1080p/}
+		STNR=$(echo "$STNR" | sed "s/[0-9]\+\-[0-9]\+//")
+		STNR=$(echo "$STNR" | grep -E -o -i "[0-9][0-9]{0,2}")
+		if [[ $STNR =~ ^[0-9]{1,2}$ ]]; then
+			SCHECK=0
+		else
+			SCHECK=1
+		fi
+	else
+		SCHECK=1
+	fi
+	echo "$STNR"
+	return $SCHECK
+}
+#-----------------------------------------------------------------------------------------
+#FUNKTION
+function taufe
+{
+echo Datei wird getauft!
+}
+#-----------------------------------------------------------------------------------------
+#FUNKTION
+function logging
+{
+	FOLGE_1=$1
+	STNR_1=$2
+	SERIE_1=$3
+	LOG=$4
+	echo "datei wird geloggt..."
+
+	case $LOG in
+		1) 	echo -n "Kein Serienordner: " >> ./massmove_log.txt	;;
+		2)	echo -n "Kein Staffelordner oder ähnlches: " >> ./massmove_log.txt	;;
+		3)	echo -n "Taufe nicht möglich: " >> ./massmove_log.txt	;;
+		4)	echo -n "Datei/Ordner entfernt: " >> ./massmove_log.txt	;;
+		5)	echo -n "Archiv Datei: " >> ./massmove_log.txt	;;
+	esac
+	
+	echo -n $(basename "$SERIE") " | " >> ./massmove_log.txt
+	echo -n "Staffel " $STNR_1  " | " >> ./massmove_log.txt
+	echo $(basename "$FOLGE_1") >> ./massmove_log.txt
+	echo "PFAD: " "$FOLGE_1" >> ./massmove_log.txt
+	echo "--------------------------------------------------------------------------------------" >> ./massmove_log.txt
+
+}
+#-----------------------------------------------------------------------------------------
+#MAIN - eroierung des Pfades und der Opionen#
+if [ -z "$2" ]; then
+
+    ROOT="."
+else
+   	ROOT="$2"
+fi
+
+if [ -n "$1" ]; then
+	if [ $1 == "--help" ]; then
+		cat massmove_man.txt
+		exit
+	else
+		if [ -n "$2" ]; then
+			CHAR=$1
+		else
+			ROOT=$1
+		fi
+	fi
+fi
+
+#Hauptroutine: Serien Ordner nach Serien, Staffeln und Folgen durchsuchen
+for SERIE in $ROOT/"$CHAR"*; do
+	if [ -d "$SERIE" ]; then
+		let SERIECOUNT=SERIECOUNT+1
+		echo "------------------------------------" $( basename "$SERIE" ) "------------------------------------"
+		echo "$SERIE" | grep -i -e Film -e movie -e spe[cz]ial -e extra >/dev/null
+		if [ $? -eq 1 ]; then
+			for STAFFEL in "$SERIE"/*; do
+				let SEASONCOUNT=SEASONCOUNT+1
+				echo "$STAFFEL" | grep -i -e Film -e movie -e spe[cz]ial -e extra >/dev/null
+				if [ $? -eq 1 ]; then
+				  echo ">>>>Checkseason<<<<"
+					STNR=$(checkseason "$STAFFEL")
+					if [ $? -eq 0 ]; then
+						for FOLGE in "$STAFFEL"/*; do
+							let EPCOUNT=EPCOUNT+1
+							checkfile "$FOLGE" "$STNR" "$SERIE"
+						done
+					else
+						echo "Kein Staffelordner: " $(basename "$STAFFEL") " - WARNING"
+						echo "$STNR"
+						echo "Prüfe ob gültige Folge..."
+						checkfile "$STAFFEL" "$STNR" "$SERIE"
+					fi
+				else
+					echo "---Kein Standard Staffel Ordner---"
+					logging "$STAFFEL" "nichts" "$SERIE" "2"
+				fi
+			done
+		else
+			echo "---Keine Standardserie---"
+			logging "$FOLGE" "nichts" "$SERIE" "1"
+		fi	
+	fi
+done
+	after=$(date +%s)
+	echo "-----------------------------------------------------"
+	echo -n "Erfolgreich bearbetet | "
+	echo "elapsed time:" $((after - $before)) "seconds"
+	echo "bearbeitete Serien: " "$SERIECOUNT"
+	echo "bearbeitete Staffeln: " "$SEASONCOUNT"
+	echo "bearbeitete Folgen: " "$EPCOUNT"
+	echo "gesamt Größe gelöschter Objekte: " "$DELETEGLOBAL" " Bytes"
+
+
+#-----------------------------------------------------------------------------------------
