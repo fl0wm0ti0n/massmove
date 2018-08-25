@@ -4,15 +4,15 @@ NAME
 SYNOPSIS
 	massmove [SEARCH_CHAR] [SERIES_DIR]
 	
-	[SEARCH_CHAR]:	bei welchen Serien Anfangsbuchstaben massmove zum suchen anfangen soll. Nichts ist [ALLE]
-	[SERIES_DIR]:	Suchpfad, der pfad worin alle einzelnen Serien liegen. Nichts ist Pfad wo massmove liegt.
+	[SEARCH_CHAR]:	bei welchen Serien Anfangsbuchstaben massmove zum suchen anfangen soll. Nichts ist [ALLE]. ACHTUNG! Buchstaben suche geht nur wenn ein Pfad mit angegeben ist!
+	[SERIES_DIR]:	Suchpfad, der pfad worin alle einzelnen Serien liegen. Nichts ist Pfad wo massmove liegt. Der Pfad muss vollstÃ¤ndig eingebenen werden.
 
 DESCRIPTION
-	massmove sucht nach nach Serien-Ordnern in denen Staffelordner ungünstig benannt sind, und speziell nach 
-	Folgen welche in unützen Unterordnern liegen sowie ungünstig benannt sind. Massmove schiebt diese in den 
-	Staffelordner, dabei benennt massmove die erwähnten Dateien nach den Schema "STAFFELNAME - S00E00". 
-	Datein bei denen es sich um kein Video oder um ein Sample handelt werden gelöscht. Kann massmove eine 
-	Datei nicht bearbeiten wird dies in einem Log, für das manuelle Bearbeiten festgehalten.
+	massmove sucht nach nach Serien-Ordnern in denen Staffelordner ungï¿½nstig benannt sind, und speziell nach 
+	Folgen welche in unï¿½tzen Unterordnern liegen sowie ungï¿½nstig benannt sind. Massmove schiebt diese in den 
+	Staffelordner, dabei benennt massmove die erwï¿½hnten Dateien nach den Schema "STAFFELNAME - S00E00". 
+	Datein bei denen es sich um kein Video oder um ein Sample handelt werden gelï¿½scht. Kann massmove eine 
+	Datei nicht bearbeiten wird dies in einem Log, fï¿½r das manuelle Bearbeiten festgehalten.
 
 	Folgende Struktur wird dabei eingehalten:
 	
