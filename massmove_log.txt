@@ -1,0 +1,42 @@
+Fehlecode MM00 | Datei/Ordner entfernt: Serienname:  Simpsons  | 
+Staffel  01  | 
+Datei:  Thumbs.db  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S01/Thumbs.db 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM03 | Taufe nicht möglich: Serienname:  Simpsons  | 
+Staffel  1  | 
+Datei:  Die.Simpsons.S01  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S01 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt: Serienname:  Simpsons  | 
+Staffel  02  | 
+Datei:  Thumbs.db  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S02/Thumbs.db 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM03 | Taufe nicht möglich: Serienname:  Simpsons  | 
+Staffel  2  | 
+Datei:  Die.Simpsons.S02  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S02 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt: Serienname:  Simpsons  | 
+Staffel  03  | 
+Datei:  Thumbs.db  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S03/Thumbs.db 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM03 | Taufe nicht möglich: Serienname:  Simpsons  | 
+Staffel  3  | 
+Datei:  Die.Simpsons.S03  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S03 
+
+-------------------------------------------------------------------------------------------------------------------
+
