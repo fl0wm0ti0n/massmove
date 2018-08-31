@@ -1,42 +1,681 @@
-Fehlecode MM00 | Datei/Ordner entfernt: Serienname:  Simpsons  | 
-Staffel  01  | 
-Datei:  Thumbs.db  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S01/Thumbs.db 
-
--------------------------------------------------------------------------------------------------------------------
-
-Fehlecode MM03 | Taufe nicht möglich: Serienname:  Simpsons  | 
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  Terra Nova  | 
 Staffel  1  | 
-Datei:  Die.Simpsons.S01  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S01 
+Datei:  tvs-tn-ded-dl-ithd-xvid-112.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Terra Nova/Staffel 1/Terra.Nova.S01E12.Feindliche.Uebernahme.German.Dubbed.DL.iTunesHD.XviD-TVS/tvs-tn-ded-dl-ithd-xvid-112.nfo 
 
 -------------------------------------------------------------------------------------------------------------------
 
-Fehlecode MM00 | Datei/Ordner entfernt: Serienname:  Simpsons  | 
-Staffel  02  | 
-Datei:  Thumbs.db  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S02/Thumbs.db 
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  Terra Nova  | 
+Staffel  1  | 
+Datei:  tvs-tn-ded-dl-ithd-xvid-113.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Terra Nova/Staffel 1/Terra.Nova.S01E13.Entscheidung.German.Dubbed.DL.iTunesHD.XviD-TVS/tvs-tn-ded-dl-ithd-xvid-113.nfo 
 
 -------------------------------------------------------------------------------------------------------------------
 
-Fehlecode MM03 | Taufe nicht möglich: Serienname:  Simpsons  | 
-Staffel  2  | 
-Datei:  Die.Simpsons.S02  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S02 
-
--------------------------------------------------------------------------------------------------------------------
-
-Fehlecode MM00 | Datei/Ordner entfernt: Serienname:  Simpsons  | 
-Staffel  03  | 
-Datei:  Thumbs.db  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S03/Thumbs.db 
-
--------------------------------------------------------------------------------------------------------------------
-
-Fehlecode MM03 | Taufe nicht möglich: Serienname:  Simpsons  | 
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
 Staffel  3  | 
-Datei:  Die.Simpsons.S03  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S03 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-301.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E01.Wanheda.Teil1.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-301.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-302.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E02.Wanheda.Teil2.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-302.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-303.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E03.Der.13.Clan.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-303.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-304.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E04.Kampf.um.den.Thron.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-304.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-305.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E05.Blutgetraenktes.Land.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-305.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-306.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E06.Vergifteter.Boden.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-306.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-307.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E07.Dreizehn.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-307.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-308.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E08.Alte.Gesetze.neue.Regeln.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-308.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-309.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E09.Die.Gestohlene.Flamme.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-309.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-310.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E10.Der.Fall.Arkadias.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-310.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-311.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E11.Nimmermehr.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-311.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvs-thu-dd51-ded-dl-18p-bd-x264-312.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E12.Daemonen.der.Vergangenheit.German.DD51.Dubbed.DL.1080p.BD.x264-TVS/tvs-thu-dd51-ded-dl-18p-bd-x264-312.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvp-the100-s03e13-1080p.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E13.Fueg.Dich.oder.Stirb.GERMAN.DUBBED.DL.1080p.BluRay.x264-TVP/tvp-the100-s03e13-1080p.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvp-the100-s03e14-1080p.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E14.Morgenroete.GERMAN.DUBBED.DL.1080p.BluRay.x264-TVP/tvp-the100-s03e14-1080p.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvp-the100-s03e15-1080p.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E15.Deus.Ex.Machina.1.GERMAN.DUBBED.DL.1080p.BluRay.x264-TVP/tvp-the100-s03e15-1080p.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  3  | 
+Datei:  tvp-the100-s03e16-1080p.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 3/The.100.S03E16.Deus.Ex.Machina.2.GERMAN.DUBBED.DL.1080p.BluRay.x264-TVP/tvp-the100-s03e16-1080p.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0401-80AHDv2/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0401-80AHDv2/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0401-80AHDv2/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0402-80AHDv2/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0402-80AHDv2/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0402-80AHDv2/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0403-80AHDv2/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0403-80AHDv2/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0403-80AHDv2/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0404-80AHDv2/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0404-80AHDv2/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0404-80AHDv2/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0405-80AHDv2/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0405-80AHDv2/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0405-80AHDv2/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0406-80AHD/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0406-80AHD/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0406-80AHD/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  .DS_Store  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0407-80AHD/.DS_Store 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0407-80AHD/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0407-80AHD/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0407-80AHD/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  .DS_Store  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0408-80AHD/.DS_Store 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0408-80AHD/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0408-80AHD/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0408-80AHD/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  .DS_Store  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0409-80AHD/.DS_Store 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0409-80AHD/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0409-80AHD/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0409-80AHD/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0410-80AHD/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0410-80AHD/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0410-80AHD/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0411-80AHD/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0411-80AHD/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0411-80AHD/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  .DS_Store  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0412-80AHD/.DS_Store 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0412-80AHD/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0412-80AHD/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0412-80AHD/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  .DS_Store  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0413-80AHD/.DS_Store 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X1.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0413-80AHD/_X1.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X2.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0413-80AHD/_X2.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  4  | 
+Datei:  _X3.jpg  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 4/No1569_0413-80AHD/_X3.jpg 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E01.HDTV.x264-SVA.de-SubCentral.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E01.HDTV.x264-SVA.de-SubCentral.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E01.HDTV.x264-SVA.VO.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E01.HDTV.x264-SVA.VO.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E02.HDTV.x264-SVA.de-SubCentral.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E02.HDTV.x264-SVA.de-SubCentral.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E02.HDTV.x264-SVA.VO.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E02.HDTV.x264-SVA.VO.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E03.HDTV.x264-SVA.VO.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E03.HDTV.x264-SVA.VO.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E04.HDTV.x264-KILLERS.de-SubCentral.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E04.HDTV.x264-KILLERS.de-SubCentral.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E04.HDTV.x264-KILLERS.VO.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E04.HDTV.x264-KILLERS.VO.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E05.HDTV.x264-SVA.de-SubCentral.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E05.HDTV.x264-SVA.de-SubCentral.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E05.HDTV.x264-SVA.VO.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E05.HDTV.x264-SVA.VO.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E06.HDTV.x264-SVA.de-SubCentral.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E06.HDTV.x264-SVA.de-SubCentral.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E06.HDTV.x264-SVA.VO.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E06.HDTV.x264-SVA.VO.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E07.HDTV.x264-SVA.de.SubCentral.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E07.HDTV.x264-SVA.de.SubCentral.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E07.HDTV.x264-SVA.VO.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E07.HDTV.x264-SVA.VO.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E08.720p.HDTV.x264-KILLERS.VO.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E08.720p.HDTV.x264-KILLERS.VO.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The 100  | 
+Staffel  5  | 
+Datei:  The.100.S05E09.HDTV.x264-SVA.de-SubCentral.srt  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E09.HDTV.x264-SVA.de-SubCentral.srt 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM02 | Kein Staffelordner oder ähnlches | Ursache: Enthält im Namen film/movie, spe[cz]ial oder extra | Serienname:  S06E06.Akt und Extrakt.mp4  | 
+Staffel  nichts  | 
+Datei:  The Big Bang Theory  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Big Bang Theory 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+01
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-201.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E01.Der.Retter.von.Central.City.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-201.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+02
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-202.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E02.Zwei.Welten.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-202.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+03
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-203.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E03.Familie.der.Schurken.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-203.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+04
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-204.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E04.Ein.wuerdiger.Nachfolger.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-204.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+05
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-205.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E05.Licht.in.der.Dunkelheit.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-205.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+06
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-206.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E06.Zoom.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-206.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+07
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-207.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E07.Grodds.Rueckkehr.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-207.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+08
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-208.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E08.Legenden.der.Gegenwart.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-208.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+09
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-209.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E09.Trio.Infernal.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-209.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+10
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-210.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E10.Die.Macht.der.Langsamkeit.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-210.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+11
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-211.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E11.Gefahr.aus.der.Zukunft.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-211.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+12
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-212.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E12.Rausch.der.Geschwindigkeit.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-212.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+13
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-213.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E13.Willkommen.auf.Erde.Zwei.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-213.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+14
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-214.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E14.Flucht.von.Erde.Zwei.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-214.nfo 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Serienname:  The Flash  | 
+Staffel  02
+15
+51  | 
+Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-215.nfo  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E15.King.Shark.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-215.nfo 
 
 -------------------------------------------------------------------------------------------------------------------
 
