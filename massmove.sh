@@ -26,6 +26,14 @@ function GetMultipleReturn
 
     echo `echo $1 | cut -d',' -f $2`
 
+	## function call
+	#RESULT=`GetMultipleReturn`
+		
+	## get parts of result
+	#RES1=`get_rtrn $RESULT 1`
+	#RES2=`get_rtrn $RESULT 2`
+	#RES3=`get_rtrn $RESULT 3`
+
 }
 
 #-----------------------------------------------------------------------------------------
@@ -134,29 +142,25 @@ function ExtrahiereFolgennummer
 {
 
 	local EXTRAKT_DATEI=$1
-	local EXTRAKT_STNR=$2
-	local EXTRAKT_SERIE=$3
+	local EXTRAKT_SERIE=$2
 	local EPNRCHECK=1
+	local EPNR=0
+	local ORES
+	local FRES
+	local DIRSTRING
 	
 	echo ">>>>ExtrahiereFolgennummer<<<< - Wenn gültige Nummer return 0 (True)" >&2
 
-	# prüfe ob Dateiname richtig 
-
-		# if [ $STNR_1 -ne 1 -a "$FOLGE_1" -ne 8 ]; then
-		# EXTFOLGE=${EXTFOLGE//108p/}
-		# fi
-
-	local EPNR=$(EntferneUnnötigeStringTeile "$EXTRAKT_DATEI" "$EXTRAKT_SERIE")
+	EPNR=$(EntferneUnnötigeStringTeile "$EXTRAKT_DATEI" "$EXTRAKT_SERIE")
 	
 	EPNR=$(echo "$EPNR" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
-	local FRES=$?
+	FRES=$?
 
-	EPNR=$(echo $EPNR | sed q )
+	EPNR=$(echo $EPNR | sed q ) # Nimm erste zeile
 	EPNR=$(echo $EPNR | sed "s/^0*//") # Entferne führende Null
 
 	COUNT=${#EPNR}
-	echo "COUNT = $COUNT" >&2
-	if [ $COUNT -gt 2 ]; then
+	if [ $COUNT -gt 2 ]; then # Wenn EPNR größer 2 wird angenommen, dass der Serienname eine Zahl enthielt. Vom String Anfang bis
 		NUMBERINSERIE=$(basename "$EXTRAKT_SERIE")
 		NUMBERINSERIE=${NUMBERINSERIE//[!0-9]/}
 
@@ -171,17 +175,19 @@ function ExtrahiereFolgennummer
 	if [ $FRES -eq 1 ]; then
 
 		# prüfe ob ordnername eine EP nummer enthält
-		local 	DIRSTRING=$( dirname "$EXTRAKT_DATEI" )
-				DIRSTRING=$( basename "$DIRSTRING" )
+		DIRSTRING=$( dirname "$EXTRAKT_DATEI" )
+		DIRSTRING=$( basename "$DIRSTRING" )
 		
-		EPNR=$(echo "$DIRSTRING" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
-		local ORES=$?
+		EPNR=$(EntferneUnnötigeStringTeile "$DIRSTRING" "$EXTRAKT_SERIE")
 
-		EPNR=$(echo $EPNR | sed q )
-		EPNR=$(echo $EPNR | sed "s/^0*//")
+		EPNR=$(echo "$EPNR" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
+		ORES=$?
+
+		EPNR=$(echo $EPNR | sed q ) # Nimm erste zeile
+		EPNR=$(echo $EPNR | sed "s/^0*//") # Entferne führende Null
 
 		COUNT=${#EPNR}
-		if [ $COUNT -gt 2 ]; then
+		if [ $COUNT -gt 2 ]; then # Wenn EPNR größer 2 wird angenommen, dass der Serienname eine Zahl enthielt. Vom String Anfang bis
 			NUMBERINSERIE=$(basename "$EXTRAKT_SERIE")
 			NUMBERINSERIE=${NUMBERINSERIE//[!0-9]/}
 
@@ -210,13 +216,101 @@ function ExtrahiereFolgennummer
 	fi
 
 	echo ">>>>ExtrahiereFolgennummer<<<< - Return = $EPNRCHECK" >&2
-
+	echo ">>>>ExtrahiereFolgennummer<<<< - EP Nummer = $EPNR" >&2
 	echo "$EPNR"
 
 	return $EPNRCHECK
 
 }
 
+
+#-----------------------------------------------------------------------------------------
+# FUNKTION - STNR säubern
+#-----------------------------------------------------------------------------------------
+function ExtrahiereStaffelnummer
+{
+
+	local EXTRAKT_DATEI=$1
+	local EXTRAKT_SERIE=$2
+	local STNRCHECK=1
+	local STNR=0
+	local ORES
+	local SRES
+	local DIRSTRING
+	
+	echo ">>>>ExtrahiereStaffelnummer<<<< - Wenn gültige Nummer return 0 (True)" >&2
+
+	STNR=$(EntferneUnnötigeStringTeile "$EXTRAKT_DATEI" "$EXTRAKT_SERIE")
+	
+	STNR=$(echo "$STNR" | grep -E -o -i "s[0-9][0-9]([efx]|ep\.?)" | grep -E -o "[0-9][0-9]{0,2}")
+	SRES=$?
+
+	STNR=$(echo $STNR | sed q ) # Nimm erste zeile
+	STNR=$(echo $STNR | sed "s/^0*//") # Entferne führende Null
+
+	COUNT=${#STNR}
+	if [ $COUNT -gt 2 ]; then # Wenn STNR größer 2 wird angenommen, dass der Serienname eine Zahl enthielt. Vom String Anfang bis
+		NUMBERINSERIE=$(basename "$EXTRAKT_SERIE")
+		NUMBERINSERIE=${NUMBERINSERIE//[!0-9]/}
+
+		echo "NUMBERINSERIE = $NUMBERINSERIE" >&2
+
+		STNR=$(echo $STNR | sed "s/^$NUMBERINSERIE*//")
+
+		echo "STNR = $STNR" >&2
+
+	fi
+
+	if [ $FRES -eq 1 ]; then
+
+		# prüfe ob ordnername eine EP nummer enthält
+		DIRSTRING=$( dirname "$EXTRAKT_DATEI" )
+		DIRSTRING=$( basename "$DIRSTRING" )
+		
+		STNR=$(EntferneUnnötigeStringTeile "$DIRSTRING" "$EXTRAKT_SERIE")
+
+		STNR=$(echo "$STNR" | grep -E -o -i "s[0-9][0-9]([efx]|ep\.?)" | grep -E -o "[0-9][0-9]{0,2}")
+		ORES=$?
+
+		STNR=$(echo $STNR | sed q ) # Nimm erste zeile
+		STNR=$(echo $STNR | sed "s/^0*//") # Entferne führende Null
+
+		COUNT=${#STNR}
+		if [ $COUNT -gt 2 ]; then # Wenn STNR größer 2 wird angenommen, dass der Serienname eine Zahl enthielt. Vom String Anfang bis
+			NUMBERINSERIE=$(basename "$EXTRAKT_SERIE")
+			NUMBERINSERIE=${NUMBERINSERIE//[!0-9]/}
+
+			echo "NUMBERINSERIE = $NUMBERINSERIE" >&2
+
+			STNR=$(echo $STNR | sed "s/^$NUMBERINSERIE*//")
+
+			echo "STNR = $STNR" >&2
+
+		fi
+
+		if [ $ORES -eq 1 ]; then
+
+			STNRCHECK=1
+
+		else
+
+			STNRCHECK=0
+
+		fi
+
+	else
+
+		STNRCHECK=0
+
+	fi
+
+	echo ">>>>ExtrahiereStaffelnummer<<<< - Return = $STNRCHECK" >&2
+	echo ">>>>ExtrahiereStaffelnummer<<<< - EP Nummer = $STNR" >&2
+	echo "$STNR"
+
+	return $STNRCHECK
+
+}
 
 
 #-----------------------------------------------------------------------------------------
@@ -226,7 +320,8 @@ function EntferneUnnötigeStringTeile
 {
 
 	local EXTFOLGE=$(basename "$1")
-	local SERIENNAME=$(basename "$2")
+	local SERIENNAME1=$(basename "$2")
+	local SERIENNAME2
 
 	echo ">>>>EntferneUnnötigeStringTeile<<<<" >&2
 
@@ -243,7 +338,14 @@ function EntferneUnnötigeStringTeile
 	EXTFOLGE=${EXTFOLGE//h264/}
 	EXTFOLGE=${EXTFOLGE//x265/}
 	EXTFOLGE=${EXTFOLGE//h265/}
-	EXTFOLGE=${EXTFOLGE#$SERIENNAME}
+	EXTFOLGE=${EXTFOLGE#$SERIENNAME1}
+
+	SERIENNAME2=${SERIENNAME1// /.}
+	EXTFOLGE=${EXTFOLGE#$SERIENNAME2}
+
+	SERIENNAME2=${SERIENNAME1// /-}
+	EXTFOLGE=${EXTFOLGE#$SERIENNAME2}
+
 
 	echo ">>>>EntferneUnnötigeStringTeile<<<< - Ergebnis = $EXTFOLGE" >&2
 
@@ -265,15 +367,17 @@ function IfZweiOderDreiStelligReturnTrue
 	
   	echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - Wenn gültige 2 oder 3 stellige Nummer return 0 (True)" >&2
 
-		local EPNR=$(EntferneUnnötigeStringTeile "$EXTRAKT_DATEI" "$ZWEIDREI_SERIE")
+		local EPNR=$(EntferneUnnötigeStringTeile "$ZWEIDREI_DATEI" "$ZWEIDREI_SERIE")
 
-		# EPNR=$(basename "$ZWEIDREI_EXTFOLGE" | sed "s/[^0-9]//g" | cut -d " " -f 2 )
-		local EPNR=$(basename "$EPNR" | grep -E -o -i "[0-9][0-9]{0,2}" | sed q)
+		# EPNR=$(basename "$EPNR" | sed "s/[^0-9]//g" | cut -d " " -f 2 )
+		EPNR=$(basename "$EPNR" | grep -E -o -i "[0-9][0-9]{0,2}" | sed q)
+
+		echo "EPNR = $EPNR" >&2
+
 		if [[ $EPNR =~ ^[0-9]{1,2}$ ]]; then # Wenn zweistellige Nummer, dann...
 
 			EPNR=$( echo $EPNR | sed "s/^0*//" )
-
-			#printout "$ZWEIDREI_SERIE" "$ZWEIDREI_STNR" "$EPNR" "$ZWEIDREI_DATEI"
+			echo "EPNR = $EPNR" >&2
 
 			ZWEIDREICHECK=0
 
@@ -281,10 +385,9 @@ function IfZweiOderDreiStelligReturnTrue
 
 			if [[ $EPNR =~ ^[0-9]{1,3}$ ]]; then # Wenn dreistellige Nummer, dann...
 
-				# EPNR=${EPNR:1}
-				# EPNR=$( echo $EPNR | sed "s/^0*//" )
-
-				#printout "$ZWEIDREI_SERIE" "$ZWEIDREI_STNR" "$EPNR" "$ZWEIDREI_DATEI"
+				EPNR=${EPNR:1}
+				EPNR=$( echo $EPNR | sed "s/^0*//" )
+				echo "EPNR = $EPNR" >&2
 
 				ZWEIDREICHECK=0
 
@@ -475,11 +578,14 @@ function AddGesamtGeloescht
 #-----------------------------------------------------------------------------------------
 function PruefeDatei
 {
-	echo ">>>>PruefeDatei<<<<" >&2
+	echo ">>>>PruefeDatei<<<< - Wenn gültige Datei return 0 (True)" >&2
 	local PRUEFDATEI=$1
 	local PRUEF_STNR=$2
 	local PRUEF_SERIE=$3
-	
+	local PRUEF_FOLGE
+	local DATEICHECK1=1
+	local DATEICHECK2=1
+
 	if [ -d "$PRUEFDATEI" ]; then # Wenn es sich um einen Ordner handelt dann...
 
 		echo "Datei ist Ordner: " $(basename "$PRUEFDATEI") >&2
@@ -487,48 +593,46 @@ function PruefeDatei
 		
 		# An dieser stelle könnte man DateiVerschieben und DateiOderOrdnerLoeschen aufrufen. es muss aber darauf geachtet werden, dass es sich um einen Folgenordner handelt und nicht ein Staffelordner
 
-		find "$PRUEFDATEI" -type f | while read PRUEF_FILE # Suche Dateien im Ordner
+		while read PRUEF_FILE # Suche Dateien im Ordner
 		do
 
 			echo "Datei gefunden: " $(basename "$PRUEF_FILE") >&2
 			PruefeDateiGroeßeUndTyp "$PRUEF_FILE" "$PRUEF_STNR" "$PRUEF_SERIE"
 
 			if [ $? -eq 0 ]; then # Wenn es sich um zulässige Folge handelt dann...
-
-				local EPNR=$(ExtrahiereFolgennummer "$PRUEF_FILE" "$PRUEF_STNR" "$PRUEF_SERIE")
-							
+				
+				EPNR=$(ExtrahiereFolgennummer "$PRUEF_FILE" "$PRUEF_SERIE")
+		
 				if [ $? -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
 
 					EPNR=$(IfZweiOderDreiStelligReturnTrue "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE")
-					DATEICHECK=$?
+					DATEICHECK1=$?
 
 				else
 
-					DATEICHECK=0
-
+					DATEICHECK1=0
 				fi
 
 			fi
 
-		done
+		done  <<< "$(find "$PRUEFDATEI" -type f)"
 
 	else
-
-		echo "Folge ist kein Ordner: " $(basename "$PRUEFDATEI") >&2
+		echo "Datei gefunden: " $(basename "$PRUEFDATEI") >&2
 		PruefeDateiGroeßeUndTyp "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE"
 
 		if [ $? -eq 0 ]; then # Wenn es sich um zulässige Folge handelt dann...
 
-			local EPNR=$(ExtrahiereFolgennummer "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE")
+			local EPNR=$(ExtrahiereFolgennummer "$PRUEFDATEI" "$PRUEF_SERIE")
 							
 				if [ $? -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
 
 					EPNR=$(IfZweiOderDreiStelligReturnTrue "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE")
-					DATEICHECK=$?
+					DATEICHECK1=$?
 
 				else
 
-					DATEICHECK=0
+					DATEICHECK1=0
 
 				fi
 
@@ -536,9 +640,18 @@ function PruefeDatei
 
 	fi
 
+	if [ $DATEICHECK2 -eq 0 ]; then 
+
+		DATEICHECK1=0
+
+	fi
+
+	echo ">>>>PruefeDatei<<<< - Return = $DATEICHECK1" >&2
+	echo ">>>>PruefeDatei<<<< - EP Nummer = $EPNR" >&2
+
 	echo "$EPNR"
 
-	return $DATEICHECK
+	return $DATEICHECK1
 
 }
 
@@ -572,15 +685,11 @@ function IfStaffelReturnTrue
 		STNR=$(echo "$STNR" | sed "s/[0-9]\+\-[0-9]\+//")
 		STNR=$(echo "$STNR" | grep -E -o -i "[0-9][0-9]{0,2}")
 		STNR=$(echo $STNR | sed "s/^0*//")
-		# Zusatz check einbauen ob eine episodennummer vorhanden ist. wenn Ja > Staffel = False
-
-		if [[ $STNR =~ ^[0-9]{1,2}$ ]]; then
+		
+		COUNT=${#STNR}
+		if [ $COUNT -le 2 ]; then # Wenn weniger oder gleich 2 Digits
 
 			STCHECK=0
-
-		else
-
-			STCHECK=1
 
 		fi
 
@@ -589,20 +698,27 @@ function IfStaffelReturnTrue
 		STCHECK=1
 
 	fi
-	
-	ExtrahiereFolgennummer "$CHECK_STAFFEL" "$STNR" "$CHECK_SERIE"
-	if [ $? -eq 0 ]; then
+		
+	# Prüfe ob die Datei oder der Ordner eine Folge ist, wenn Ja > Staffel = False
+	if [ $STCHECK -eq 0 ]; then
 
-		STCHECK=1
-		echo "STCHECK = $STCHECK" >&2
-	else
+		ExtrahiereFolgennummer "$CHECK_STAFFEL" "$STNR" "$CHECK_SERIE"
 
-		STCHECK=0
-		echo "STCHECK = $STCHECK" >&2
+		if [ $? -eq 0 ]; then
+
+			STCHECK=1
+			echo "STCHECK = $STCHECK" >&2
+
+		else
+
+			STCHECK=0
+			echo "STCHECK = $STCHECK" >&2
+
+		fi
+
 	fi
 
 	echo ">>>>IfStaffelReturnTrue<<<< - Return = $STCHECK" >&2
-
 	echo ">>>>IfStaffelReturnTrue<<<< - Staffelnummer = $STNR" >&2
 
 	echo "$STNR"
@@ -802,12 +918,12 @@ for STAFFEL in "$SERIE_1"/*; do # STAFFELN SCHLEIFE - Für jedes gefundene Eleme
 	else
 
 		echo "Kein Staffelordner: " $(basename "$STAFFEL") " - WARNING"  >&2
-		echo "$STNR"  >&2
 		echo "Prüfe ob gültige Folge..."  >&2
 		echo "Extrahiere Staffelnummer aus Datei..."  >&2
 		echo "Erstellen von Staffelordnern notwendig"  >&2
 
 		local EPNR=$(PruefeDatei "$STAFFEL" "$STNR" "$SERIE_1")
+
 		printout "$SERIE_1" "$STNR" "$EPNR" "$STAFFEL"
 		# Staffelordner erstellen
 		# Datei nehmen und in Staffelordner verschieben
@@ -846,11 +962,11 @@ echo "Loop 1 - Datei:" $(basename "$SERIE")  >&2
 
 			if [ $CHECKSTAFFEL -eq 1 ] && [ $CHECKXCONTENT -eq 1 ]; then # Wenn letzter Rückgabe Wert 1 (Error) dann...
 
-			MittlereSchleife_Staffeln "$SERIE"
+				MittlereSchleife_Staffeln "$SERIE"
 
 			else
 
-			echo "Serie '$( basename "$SERIE" )' ist auf der Ausnahmeliste Überspringe diese Serie" >&2
+				echo "Serie '$( basename "$SERIE" )' ist auf der Ausnahmeliste Überspringe diese Serie" >&2
 
 			fi	
 
@@ -876,14 +992,14 @@ SEARCHPATH="$1"
 echo "$SEARCHPATH" | grep -E ^/ >/dev/null
 if [ $? -eq 1 ]; then
 
-SEARCHPATH="/$SEARCHPATH"
+	SEARCHPATH="/$SEARCHPATH"
 
 fi
 
 echo "$SEARCHPATH" | grep -E /\$ >/dev/null
 if [ $? -eq 1 ]; then
 
-SEARCHPATH="$SEARCHPATH/"
+	SEARCHPATH="$SEARCHPATH/"
 
 fi
 
