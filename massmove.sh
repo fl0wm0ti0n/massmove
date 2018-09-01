@@ -1,7 +1,8 @@
 #!/bin/bash
 #/media/5f131047-b830-4d89-88f3-f139bebfdef6/DataHub/Projektmappen/Visual_Studio/Projects/massmove
 
-before=$(date +%s)
+export before=$(date +%s)
+export CreateLogTime=$(date +%d.%m.%Y@%H-%M-%S)
 export DELETEGLOBAL=0
 export SERIECOUNT=0
 export SEASONCOUNT=0
@@ -10,8 +11,11 @@ export TESTMODUS=1
 export SEARCHPATH=""
 
 #entferne Logdatei wenn vorhanden
-rm -f massmove_log.txt
+#rm -f massmove_log.txt
+# lege logdatei mit aktuellem Zeitstempel an
+echo -e "Start der Protokollierung: $CreateLogTime\r\n" > massmove_log_$CreateLogTime.txt
 
+# lege ausgelagerten bytezähler an
 echo "0" > delbytes.txt
 
 #-----------------------------------------------------------------------------------------
@@ -33,18 +37,21 @@ function printout
 	local PRINTOUT_SERIE=$1
 	local PRINTOUT_STNR=$2
 	local EPNR=$3
-	local PRINTOUT_EXTFOLGE=$4
+	local PRINTOUT_DATEI=$4
 	local PRNTCHECK=1
 	
-	echo ">>>>Printout<<<<" >&2
-	echo "$EPNR" >&2
+	echo ">>>>Printout<<<< - Wenn erfolg return 0 (True)" >&2
+
+	local PRINTOUT_EXTFOLGE=$(EntferneUnnötigeStringTeile "$PRINTOUT_DATEI" "$PRINTOUT_SERIE")
+
 	EPNR=$(echo $EPNR | sed "s/^0*//")
 	let local EPNR2=EPNR+1
+
 	echo "eins: " $EPNR >&2
 	echo "zwei: " $EPNR2 >&2
-	echo "$PRINTOUT_EXTFOLGE" >&2
+	echo "EXTFOLGE" "$PRINTOUT_EXTFOLGE" >&2
 
-#Prüfe ob dobbelfolge oder nicht
+	#Prüfe ob dobbelfolge oder nicht
 	local STRING=${#EPNR}
 
 	if [ "$STRING" -eq 3 ]; then
@@ -54,8 +61,8 @@ function printout
 		local EPCHK=$?		
 
 		local STCHK=$(echo $EPNR | cut -b 1)
-		echo "$STCHK"
-		echo "$PRINTOUT_STNR"
+		echo "$STCHK" >&2
+		echo "$PRINTOUT_STNR" >&2
 
 		if [ "$PRINTOUT_STNR" == "$STCHK" ]; then
 
@@ -112,6 +119,9 @@ function printout
 
 	fi
 
+	echo ">>>>Printout<<<< - Return = $PRNTCHECK" >&2
+	echo ">>>>Printout<<<< - EP Nummer = $EPNR" >&2
+
 	return $PRNTCHECK
 
 }
@@ -123,39 +133,65 @@ function printout
 function ExtrahiereFolgennummer
 {
 
-	local EXTRAKT_FOLGE=$1
-	local EXTRAKT_EXTFOLGE=$2
+	local EXTRAKT_DATEI=$1
+	local EXTRAKT_STNR=$2
+	local EXTRAKT_SERIE=$3
 	local EPNRCHECK=1
-
+	
 	echo ">>>>ExtrahiereFolgennummer<<<< - Wenn gültige Nummer return 0 (True)" >&2
 
-	local EPNR=$(echo "$EXTRAKT_EXTFOLGE" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
+	# prüfe ob Dateiname richtig 
+
+		# if [ $STNR_1 -ne 1 -a "$FOLGE_1" -ne 8 ]; then
+		# EXTFOLGE=${EXTFOLGE//108p/}
+		# fi
+
+	local EPNR=$(EntferneUnnötigeStringTeile "$EXTRAKT_DATEI" "$EXTRAKT_SERIE")
+	
+	EPNR=$(echo "$EPNR" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
 	local FRES=$?
 
 	EPNR=$(echo $EPNR | sed q )
-	EPNR=$(echo $EPNR | sed "s/^0*//")
+	EPNR=$(echo $EPNR | sed "s/^0*//") # Entferne führende Null
+
+	COUNT=${#EPNR}
+	echo "COUNT = $COUNT" >&2
+	if [ $COUNT -gt 2 ]; then
+		NUMBERINSERIE=$(basename "$EXTRAKT_SERIE")
+		NUMBERINSERIE=${NUMBERINSERIE//[!0-9]/}
+
+		echo "NUMBERINSERIE = $NUMBERINSERIE" >&2
+
+		EPNR=$(echo $EPNR | sed "s/^$NUMBERINSERIE*//")
+
+		echo "EPNR = $EPNR" >&2
+
+	fi
 
 	if [ $FRES -eq 1 ]; then
 
-#	prüfe ob ordnername richtig 
-		local 	DIRSTRING=$( dirname "$EXTRAKT_FOLGE" )
+		# prüfe ob ordnername eine EP nummer enthält
+		local 	DIRSTRING=$( dirname "$EXTRAKT_DATEI" )
 				DIRSTRING=$( basename "$DIRSTRING" )
-		
-#		EXTRAKT_EXTFOLGE=${EXTRAKT_EXTFOLGE//1080p/}
-#		EXTRAKT_EXTFOLGE=${EXTRAKT_EXTFOLGE//18p/}
-#		EXTRAKT_EXTFOLGE=${EXTRAKT_EXTFOLGE//720p/}
-#		EXTRAKT_EXTFOLGE=${EXTRAKT_EXTFOLGE//72p/}
-#		EXTRAKT_EXTFOLGE=${EXTRAKT_EXTFOLGE//7p/}
-#		EXTRAKT_EXTFOLGE=${EXTRAKT_EXTFOLGE//51/}
-#		echo "$EXTRAKT_EXTFOLGE" | sed "/([efx]|ep\.?)[0-9]?51/!s/51//"
-#		EXTRAKT_EXTFOLGE=${EXTRAKT_EXTFOLGE//x264/}
-#		EXTRAKT_EXTFOLGE=${EXTRAKT_EXTFOLGE//h264/}	
 		
 		EPNR=$(echo "$DIRSTRING" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
 		local ORES=$?
 
 		EPNR=$(echo $EPNR | sed q )
 		EPNR=$(echo $EPNR | sed "s/^0*//")
+
+		COUNT=${#EPNR}
+		if [ $COUNT -gt 2 ]; then
+			NUMBERINSERIE=$(basename "$EXTRAKT_SERIE")
+			NUMBERINSERIE=${NUMBERINSERIE//[!0-9]/}
+
+			echo "NUMBERINSERIE = $NUMBERINSERIE" >&2
+
+			EPNR=$(echo $EPNR | sed "s/^$NUMBERINSERIE*//")
+
+			echo "EPNR = $EPNR" >&2
+
+		fi
 
 		if [ $ORES -eq 1 ]; then
 
@@ -174,7 +210,6 @@ function ExtrahiereFolgennummer
 	fi
 
 	echo ">>>>ExtrahiereFolgennummer<<<< - Return = $EPNRCHECK" >&2
-	echo ">>>>ExtrahiereFolgennummer<<<< - EP Nummer = $EPNR" >&2
 
 	echo "$EPNR"
 
@@ -183,79 +218,93 @@ function ExtrahiereFolgennummer
 }
 
 
+
 #-----------------------------------------------------------------------------------------
 # FUNKTION - Episode herausfinden
 #-----------------------------------------------------------------------------------------
-function PruefeDateinameUndExtrahiereRelevanteInformationen
+function EntferneUnnötigeStringTeile
 {
 
-	local NAMEXTR_DATEI=$1
-	local NAMEXTR_STNR=$(echo $2 | sed "s/^0*//")
-	local NAMEXTR_SERIE=$3
-	
-  	echo ">>>>PruefeDateinameUndExtrahiereRelevanteInformationen<<<<" >&2
+	local EXTFOLGE=$(basename "$1")
+	local SERIENNAME=$(basename "$2")
 
-#	prüfe ob Dateiname richtig 
-	local EXTFOLGE=$(basename "$NAMEXTR_DATEI")
-#	if [ $STNR_1 -ne 1 -a "$FOLGE_1" -ne 8 ]; then
-#			EXTFOLGE=${EXTFOLGE//108p/}
-#	fi
+	echo ">>>>EntferneUnnötigeStringTeile<<<<" >&2
+
 	# Ersetze in String EXTFOLGE den String recht von "//" mit den string rechts von "/" (empty)
 	EXTFOLGE=${EXTFOLGE//1080p/}
 	EXTFOLGE=${EXTFOLGE//18p/}
 	EXTFOLGE=${EXTFOLGE//720p/}
 	EXTFOLGE=${EXTFOLGE//72p/}
 	EXTFOLGE=${EXTFOLGE//7p/}
-#	EXTFOLGE=${EXTFOLGE//51/}
-# 	echo "$EXTFOLGE" | sed "/([efx]|ep\.?)[0-9]?51/!s/51//"
+	EXTFOLGE=${EXTFOLGE//480p/}
+		# EXTFOLGE=${EXTFOLGE//51/}
+		# echo "$EXTFOLGE" | sed "/([efx]|ep\.?)[0-9]?51/!s/51//"
 	EXTFOLGE=${EXTFOLGE//x264/}
 	EXTFOLGE=${EXTFOLGE//h264/}
+	EXTFOLGE=${EXTFOLGE//x265/}
+	EXTFOLGE=${EXTFOLGE//h265/}
+	EXTFOLGE=${EXTFOLGE#$SERIENNAME}
 
-	local EPNR=$(ExtrahiereFolgennummer "$NAMEXTR_DATEI" "$EXTFOLGE")
-	local CHK=$?
+	echo ">>>>EntferneUnnötigeStringTeile<<<< - Ergebnis = $EXTFOLGE" >&2
 
-	if [ $CHK -eq 0 ]; then		
+	echo "$EXTFOLGE"
 
-		printout "$NAMEXTR_SERIE" "$NAMEXTR_STNR" "$EPNR" "$EXTFOLGE"
+}
 
-	else
 
-#			zweistellig
-#	  EPNR=$(basename "$EXTFOLGE" | sed "s/[^0-9]//g" | cut -d " " -f 2 )
-		EPNR=$(basename "$EXTFOLGE" | grep -E -o -i "[0-9][0-9]{0,2}" | sed q)
+#-----------------------------------------------------------------------------------------
+# FUNKTION - Episode herausfinden
+#-----------------------------------------------------------------------------------------
+function IfZweiOderDreiStelligReturnTrue
+{
 
-		if [[ $EPNR =~ ^[0-9]{1,2}$ ]]; then
+	local ZWEIDREI_DATEI=$1
+	local ZWEIDREI_STNR=$2
+	local ZWEIDREI_SERIE=$3
+	local ZWEIDREICHECK=1
+	
+  	echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - Wenn gültige 2 oder 3 stellige Nummer return 0 (True)" >&2
 
-			echo "2stellen: " $EPNR >&2
+		local EPNR=$(EntferneUnnötigeStringTeile "$EXTRAKT_DATEI" "$ZWEIDREI_SERIE")
+
+		# EPNR=$(basename "$ZWEIDREI_EXTFOLGE" | sed "s/[^0-9]//g" | cut -d " " -f 2 )
+		local EPNR=$(basename "$EPNR" | grep -E -o -i "[0-9][0-9]{0,2}" | sed q)
+		if [[ $EPNR =~ ^[0-9]{1,2}$ ]]; then # Wenn zweistellige Nummer, dann...
 
 			EPNR=$( echo $EPNR | sed "s/^0*//" )
 
-			printout "$NAMEXTR_SERIE" "$NAMEXTR_STNR" "$EPNR" "$EXTFOLGE"
+			#printout "$ZWEIDREI_SERIE" "$ZWEIDREI_STNR" "$EPNR" "$ZWEIDREI_DATEI"
+
+			ZWEIDREICHECK=0
 
 		else
 
-#				dreistellig
-			if [[ $EPNR =~ ^[0-9]{1,3}$ ]]; then
+			if [[ $EPNR =~ ^[0-9]{1,3}$ ]]; then # Wenn dreistellige Nummer, dann...
 
-#				EPNR=${EPNR:1}
-#				EPNR=$( echo $EPNR | sed "s/^0*//" )
-				echo "3stellen: " $EPNR >&2
+				# EPNR=${EPNR:1}
+				# EPNR=$( echo $EPNR | sed "s/^0*//" )
 
-				printout "$NAMEXTR_SERIE" "$NAMEXTR_STNR" "$EPNR" "$EXTFOLGE"
+				#printout "$ZWEIDREI_SERIE" "$ZWEIDREI_STNR" "$EPNR" "$ZWEIDREI_DATEI"
+
+				ZWEIDREICHECK=0
 
 			else
 
-				SchreibeInLogdatei "$NAMEXTR_DATEI" "$NAMEXTR_STNR" "$NAMEXTR_SERIE" "3" "Folgennummer konnte nicht extrahiert werden"
+				SchreibeInLogdatei "$ZWEIDREI_DATEI" "$ZWEIDREI_STNR" "$ZWEIDREI_SERIE" "3" "Folgennummer konnte nicht extrahiert werden"
+
+				ZWEIDREICHECK=1
 
 			fi
 
 		fi
 
-	fi
+		echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - EP Nummer = $EPNR" >&2
 
+		echo "$EPNR"
+
+		return $ZWEIDREICHECK
 
 }
-
 
 #-----------------------------------------------------------------------------------------
 # FUNKTION - Check Dateityp und Größe
@@ -398,7 +447,7 @@ function PruefeDateiGroeße
 
 	local SIZE=$( stat -c %s "$FILE" ) # Eruriere Byteanzahl der aktuellen Datei
 
-	echo $SIZE
+	echo "$SIZE"
 
 }
 
@@ -446,17 +495,18 @@ function PruefeDatei
 
 			if [ $? -eq 0 ]; then # Wenn es sich um zulässige Folge handelt dann...
 
-				PruefeDateinameUndExtrahiereRelevanteInformationen "$PRUEF_FILE" "$PRUEF_STNR" "$PRUEF_SERIE"
+				local EPNR=$(ExtrahiereFolgennummer "$PRUEF_FILE" "$PRUEF_STNR" "$PRUEF_SERIE")
+							
+				if [ $? -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
 
-#				if [ $? -eq 0 ]; then
+					EPNR=$(IfZweiOderDreiStelligReturnTrue "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE")
+					DATEICHECK=$?
 
-#					DATEICHECK=0
+				else
 
-#				else
+					DATEICHECK=0
 
-#					DATEICHECK=1
-
-#				fi
+				fi
 
 			fi
 
@@ -469,20 +519,24 @@ function PruefeDatei
 
 		if [ $? -eq 0 ]; then # Wenn es sich um zulässige Folge handelt dann...
 
-			PruefeDateinameUndExtrahiereRelevanteInformationen "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE"
+			local EPNR=$(ExtrahiereFolgennummer "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE")
+							
+				if [ $? -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
 
-#			if [ $? -eq 0 ]; then
+					EPNR=$(IfZweiOderDreiStelligReturnTrue "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE")
+					DATEICHECK=$?
 
-#				DATEICHECK=0
+				else
 
-#			else
+					DATEICHECK=0
 
-#				DATEICHECK=1
+				fi
 
-#			fi
 		fi
 
 	fi
+
+	echo "$EPNR"
 
 	return $DATEICHECK
 
@@ -496,6 +550,7 @@ function IfStaffelReturnTrue
 {
 
 	local CHECK_STAFFEL=$1
+	local CHECK_SERIE=$2
 	local STCHECK=1
 
 	echo ">>>>IfStaffelReturnTrue<<<< - Wenn Staffelnummer OK return 0 (True)" >&2
@@ -509,13 +564,14 @@ function IfStaffelReturnTrue
 		STNR=${STNR//720p/}
 		STNR=${STNR//72p/}
 		STNR=${STNR//7p/}
+		STNR=${STNR//480p/}
 		STNR=${STNR//x264/}
 		STNR=${STNR//h264/}
+		STNR=${STNR//x265/}
+		STNR=${STNR//h265/}
 		STNR=$(echo "$STNR" | sed "s/[0-9]\+\-[0-9]\+//")
 		STNR=$(echo "$STNR" | grep -E -o -i "[0-9][0-9]{0,2}")
-
-		echo ">>>>IfStaffelReturnTrue<<<< - Staffelnummer = $STNR" >&2
-
+		STNR=$(echo $STNR | sed "s/^0*//")
 		# Zusatz check einbauen ob eine episodennummer vorhanden ist. wenn Ja > Staffel = False
 
 		if [[ $STNR =~ ^[0-9]{1,2}$ ]]; then
@@ -533,8 +589,21 @@ function IfStaffelReturnTrue
 		STCHECK=1
 
 	fi
+	
+	ExtrahiereFolgennummer "$CHECK_STAFFEL" "$STNR" "$CHECK_SERIE"
+	if [ $? -eq 0 ]; then
+
+		STCHECK=1
+		echo "STCHECK = $STCHECK" >&2
+	else
+
+		STCHECK=0
+		echo "STCHECK = $STCHECK" >&2
+	fi
 
 	echo ">>>>IfStaffelReturnTrue<<<< - Return = $STCHECK" >&2
+
+	echo ">>>>IfStaffelReturnTrue<<<< - Staffelnummer = $STNR" >&2
 
 	echo "$STNR"
 
@@ -630,20 +699,20 @@ function SchreibeInLogdatei
 
 	case $LOG in
 
-		1) 	echo -n "Fehlecode MM01 | Kein Serienordner | Ursache: $LOG_STRING | " 										>> ./massmove_log.txt	;;
-		2)	echo -n "Fehlecode MM02 | Kein Staffelordner oder ähnlches | Ursache: $LOG_STRING | " 						>> ./massmove_log.txt	;;
-		3)	echo -n "Fehlecode MM03 | Taufe nicht möglich | Ursache: $LOG_STRING | " 									>> ./massmove_log.txt	;;
-		4)	echo -n "Fehlecode MM00 | Datei/Ordner entfernt | Ursache: $LOG_STRING | " 									>> ./massmove_log.txt	;;
-		5)	echo -n "Fehlecode MM04 | Archiv Datei | Ursache: $LOG_STRING | " 											>> ./massmove_log.txt	;;
-		6)	echo -n "Fehlecode MM05 | Datei musste nicht bearbeitet werden | Ursache: $LOG_STRING | " 					>> ./massmove_log.txt	;;
-
+		1) 	echo -n "Fehlecode MM01 | Kein Serienordner | Ursache: $LOG_STRING | " 														>> ./massmove_log_$CreateLogTime.txt	;;
+		2)	echo -n "Fehlecode MM02 | Kein Staffelordner oder ähnlches | Ursache: $LOG_STRING | " 										>> ./massmove_log_$CreateLogTime.txt	;;
+		3)	echo -n "Fehlecode MM03 | Taufe nicht möglich | Ursache: $LOG_STRING | " 													>> ./massmove_log_$CreateLogTime.txt	;;
+		4)	echo -n "Fehlecode MM00 | Datei/Ordner entfernt | Ursache: $LOG_STRING | " 													>> ./massmove_log_$CreateLogTime.txt	;;
+		5)	echo -n "Fehlecode MM04 | Archiv Datei | Ursache: $LOG_STRING | " 															>> ./massmove_log_$CreateLogTime.txt	;;
+		6)	echo -n "Fehlecode MM05 | Datei musste nicht bearbeitet werden | Ursache: $LOG_STRING | " 									>> ./massmove_log_$CreateLogTime.txt	;;
+													
 	esac
 	
-	echo "Serienname: " $(basename "$LOG_SERIE") " | " 				>> ./massmove_log.txt
-	echo "Staffel " "$LOG_STNR" " | " 								>> ./massmove_log.txt
-	echo "Datei: " $(basename "$LOG_DATEI") " | " 					>> ./massmove_log.txt
-	echo -e "Pfad: " "$LOG_DATEI" "\r\n"							>> ./massmove_log.txt
-	echo -e "-------------------------------------------------------------------------------------------------------------------\r\n" >> ./massmove_log.txt
+	echo "Staffel " "$LOG_STNR" " | " 																									>> ./massmove_log_$CreateLogTime.txt
+	echo "Serienname: " $(basename "$LOG_SERIE") " | " 																					>> ./massmove_log_$CreateLogTime.txt
+	echo "Datei: " $(basename "$LOG_DATEI") " | " 																						>> ./massmove_log_$CreateLogTime.txt
+	echo -e "Pfad: " "$LOG_DATEI" "\r\n"																								>> ./massmove_log_$CreateLogTime.txt
+	echo -e "-------------------------------------------------------------------------------------------------------------------\r\n" 	>> ./massmove_log_$CreateLogTime.txt
 
 }
 
@@ -699,7 +768,8 @@ echo "Loop 3 - Datei:" $(basename "$FOLGE")  >&2
 
 		let EPCOUNT=EPCOUNT+1 # Zähler für Endprotokoll
 
-		PruefeDatei "$FOLGE" "$STNR_1" "$SERIE_1"
+		local EPNR=$(PruefeDatei "$FOLGE" "$STNR_1" "$SERIE_1")
+		printout "$SERIE_1" "$STNR_1" "$EPNR" "$FOLGE"
 
 	done
 }
@@ -716,33 +786,35 @@ local STAFFEL
 
 for STAFFEL in "$SERIE_1"/*; do # STAFFELN SCHLEIFE - Für jedes gefundene Element im angegebenen Pfad einen Schleifendurchlauf
 
-echo "Loop 2 - Datei:" $(basename "$STAFFEL")  >&2
+	echo "Loop 2 - Datei:" $(basename "$STAFFEL")  >&2
 
-		let SEASONCOUNT=SEASONCOUNT+1  # Zähler für Endprotokoll
+	let SEASONCOUNT=SEASONCOUNT+1  # Zähler für Endprotokoll
 
-		STNR=$(IfStaffelReturnTrue "$STAFFEL")
-		CHECKSTAFFEL=$?
-		IfExtraContentReturnTrue "$STAFFEL" "$SERIE_1"
-		CHECKXCONTENT=$?
+	STNR=$(IfStaffelReturnTrue "$STAFFEL" "$SERIE_1")
+	CHECKSTAFFEL=$?
+	IfExtraContentReturnTrue "$STAFFEL" "$SERIE_1"
+	CHECKXCONTENT=$?
 
-		if [ $CHECKSTAFFEL -eq 0 ] && [ $CHECKXCONTENT -eq 1 ]; then # Wenn letzter Rückgabe Wert 0 (Success) dann...
+	if [ $CHECKSTAFFEL -eq 0 ] && [ $CHECKXCONTENT -eq 1 ]; then # Wenn letzter Rückgabe Wert 0 (Success) dann...
 
-			InnersteSchleife_Folgen "$STAFFEL" "$STNR" "$SERIE_1"
+		InnersteSchleife_Folgen "$STAFFEL" "$STNR" "$SERIE_1"
 
-		else
+	else
 
-			echo "Kein Staffelordner: " $(basename "$STAFFEL") " - WARNING"  >&2
-			echo "$STNR"  >&2
-			echo "Prüfe ob gültige Folge..."  >&2
+		echo "Kein Staffelordner: " $(basename "$STAFFEL") " - WARNING"  >&2
+		echo "$STNR"  >&2
+		echo "Prüfe ob gültige Folge..."  >&2
+		echo "Extrahiere Staffelnummer aus Datei..."  >&2
+		echo "Erstellen von Staffelordnern notwendig"  >&2
 
-			PruefeDatei "$STAFFEL" "$STNR" "$SERIE_1"
+		local EPNR=$(PruefeDatei "$STAFFEL" "$STNR" "$SERIE_1")
+		printout "$SERIE_1" "$STNR" "$EPNR" "$STAFFEL"
+		# Staffelordner erstellen
+		# Datei nehmen und in Staffelordner verschieben
+		# loop neustarten
 
-			# Staffelordner erstellen
-			# Datei nehmen und in Staffelordner verschieben
-			# loop neustarten
 
-
-		fi
+	fi
 
 done
 
@@ -879,12 +951,12 @@ ObersteSchleife_Serien # Los gehts
 	echo "bearbeitete Folgen:" "$EPCOUNT"
 	echo "gesamt Größe gelöschter Objekte:" $(sed -n 1p ./delbytes.txt) "Bytes"
 
-	echo "----------------------------------------------------------------\r\n" 			>> ./massmove_log.txt
-	echo -n "Erfolgreich bearbetet | "														>> ./massmove_log.txt
-	echo -e "elapsed time:" $((after - $before)) "seconds\r\n"								>> ./massmove_log.txt
-	echo -e "bearbeitete Serien:" "$SERIECOUNT\r\n"											>> ./massmove_log.txt
-	echo -e "bearbeitete Staffeln:" "$SEASONCOUNT\r\n"										>> ./massmove_log.txt
-	echo -e "bearbeitete Folgen:" "$EPCOUNT\r\n"											>> ./massmove_log.txt
-	echo "gesamt Größe gelöschter Objekte:" $(sed -n 1p ./delbytes.txt) "Bytes"				>> ./massmove_log.txt
+	echo "----------------------------------------------------------------\r\n" 			>> ./massmove_log_$CreateLogTime.txt
+	echo -n "Erfolgreich bearbetet | "														>> ./massmove_log_$CreateLogTime.txt
+	echo -e "elapsed time:" $((after - $before)) "seconds\r\n"								>> ./massmove_log_$CreateLogTime.txt
+	echo -e "bearbeitete Serien:" "$SERIECOUNT\r\n"											>> ./massmove_log_$CreateLogTime.txt
+	echo -e "bearbeitete Staffeln:" "$SEASONCOUNT\r\n"										>> ./massmove_log_$CreateLogTime.txt
+	echo -e "bearbeitete Folgen:" "$EPCOUNT\r\n"											>> ./massmove_log_$CreateLogTime.txt
+	echo "gesamt Größe gelöschter Objekte:" $(sed -n 1p ./delbytes.txt) "Bytes"				>> ./massmove_log_$CreateLogTime.txt
 
 #-----------------------------------------------------------------------------------------
