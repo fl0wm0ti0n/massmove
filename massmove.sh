@@ -8,12 +8,14 @@ export SERIECOUNT=0
 export SEASONCOUNT=0
 export EPCOUNT=0
 export TESTMODUS=1
+export DELONLY=0
 export SEARCHPATH=""
 
 #entferne Logdatei wenn vorhanden
 #rm -f massmove_log.txt
 # lege logdatei mit aktuellem Zeitstempel an
 echo -e "Start der Protokollierung: $CreateLogTime\r\n" > massmove_log_$CreateLogTime.txt
+echo -e "Start der Protokollierung: $CreateLogTime\r\n" > massmove_umbenannt_$CreateLogTime.txt
 
 # lege ausgelagerten bytezähler an
 echo "0" > delbytes.txt
@@ -50,7 +52,7 @@ function printout
 	
 	echo ">>>>Printout<<<< - Wenn erfolg return 0 (True)" >&2
 
-	local PRINTOUT_EXTFOLGE=$(EntferneUnnötigeStringTeile "$PRINTOUT_DATEI" "$PRINTOUT_SERIE")
+	local PRINTOUT_EXTFOLGE=$(EntferneUnnoetigeStringTeile "$PRINTOUT_DATEI" "$PRINTOUT_SERIE")
 
 	EPNR=$(echo $EPNR | sed "s/^0*//")
 	let local EPNR2=EPNR+1
@@ -96,12 +98,18 @@ function printout
 
 		if [ -z $PRINTOUT_STNR ]; then
 
-			printf "%s - E%02dE%02d\n" "$(basename "$PRINTOUT_SERIE")" "$EPNR" "$EPNR2"
+			STRING=$(printf "%s - E%02dE%02d\n" "$(basename "$PRINTOUT_SERIE")" "$EPNR" "$EPNR2")
+			echo "$STRING" >&2
+			ProtokolliereTaufe "2" "$PRINTOUT_DATEI" "$PRINTOUT_DATEI" "$STRING"
+
 			PRNTCHECK=0
 
 		else
 
-			printf "%s - S%02dE%02dE%02d\n" "$(basename "$PRINTOUT_SERIE")" "$PRINTOUT_STNR" "$EPNR" "$EPNR2"
+			STRING=$(printf "%s - S%02dE%02dE%02d\n" "$(basename "$PRINTOUT_SERIE")" "$PRINTOUT_STNR" "$EPNR" "$EPNR2")
+			echo "$STRING" >&2
+			ProtokolliereTaufe "2" "$PRINTOUT_DATEI" "$PRINTOUT_DATEI" "$STRING"
+			
 			PRNTCHECK=0
 
 		fi
@@ -113,12 +121,18 @@ function printout
 		echo "*********************************************" >&2
 		if [ -z $PRINTOUT_STNR ]; then
 
-			printf "%s - E%02d\n" "$(basename "$PRINTOUT_SERIE")" "$EPNR"
+			STRING=$(printf "%s - E%02d\n" "$(basename "$PRINTOUT_SERIE")" "$EPNR")
+			echo "$STRING" >&2
+			ProtokolliereTaufe "2" "$PRINTOUT_DATEI" "$PRINTOUT_DATEI" "$STRING"
+
 			PRNTCHECK=0
 
 		else
 
-			printf "%s - S%02dE%02d\n" "$(basename "$PRINTOUT_SERIE")" "$PRINTOUT_STNR" "$EPNR"
+			STRING=$(printf "%s - S%02dE%02d\n" "$(basename "$PRINTOUT_SERIE")" "$PRINTOUT_STNR" "$EPNR")
+			echo "$STRING" >&2
+			ProtokolliereTaufe "2" "$PRINTOUT_DATEI" "$PRINTOUT_DATEI" "$STRING"
+
 			PRNTCHECK=0
 
 		fi
@@ -151,7 +165,7 @@ function ExtrahiereFolgennummer
 	
 	echo ">>>>ExtrahiereFolgennummer<<<< - Wenn gültige Nummer return 0 (True)" >&2
 
-	EPNR=$(EntferneUnnötigeStringTeile "$EXTRAKT_DATEI" "$EXTRAKT_SERIE")
+	EPNR=$(EntferneUnnoetigeStringTeile "$EXTRAKT_DATEI" "$EXTRAKT_SERIE")
 	
 	EPNR=$(echo "$EPNR" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
 	FRES=$?
@@ -178,7 +192,7 @@ function ExtrahiereFolgennummer
 		DIRSTRING=$( dirname "$EXTRAKT_DATEI" )
 		DIRSTRING=$( basename "$DIRSTRING" )
 		
-		EPNR=$(EntferneUnnötigeStringTeile "$DIRSTRING" "$EXTRAKT_SERIE")
+		EPNR=$(EntferneUnnoetigeStringTeile "$DIRSTRING" "$EXTRAKT_SERIE")
 
 		EPNR=$(echo "$EPNR" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
 		ORES=$?
@@ -240,7 +254,7 @@ function ExtrahiereStaffelnummer
 	
 	echo ">>>>ExtrahiereStaffelnummer<<<< - Wenn gültige Nummer return 0 (True)" >&2
 
-	STNR=$(EntferneUnnötigeStringTeile "$EXTRAKT_DATEI" "$EXTRAKT_SERIE")
+	STNR=$(EntferneUnnoetigeStringTeile "$EXTRAKT_DATEI" "$EXTRAKT_SERIE")
 	
 	STNR=$(echo "$STNR" | grep -E -o -i "s[0-9][0-9]([efx]|ep\.?)" | grep -E -o "[0-9][0-9]{0,2}")
 	SRES=$?
@@ -261,13 +275,13 @@ function ExtrahiereStaffelnummer
 
 	fi
 
-	if [ $FRES -eq 1 ]; then
+	if [ $SRES -eq 1 ]; then
 
 		# prüfe ob ordnername eine EP nummer enthält
 		DIRSTRING=$( dirname "$EXTRAKT_DATEI" )
 		DIRSTRING=$( basename "$DIRSTRING" )
 		
-		STNR=$(EntferneUnnötigeStringTeile "$DIRSTRING" "$EXTRAKT_SERIE")
+		STNR=$(EntferneUnnoetigeStringTeile "$DIRSTRING" "$EXTRAKT_SERIE")
 
 		STNR=$(echo "$STNR" | grep -E -o -i "s[0-9][0-9]([efx]|ep\.?)" | grep -E -o "[0-9][0-9]{0,2}")
 		ORES=$?
@@ -305,7 +319,7 @@ function ExtrahiereStaffelnummer
 	fi
 
 	echo ">>>>ExtrahiereStaffelnummer<<<< - Return = $STNRCHECK" >&2
-	echo ">>>>ExtrahiereStaffelnummer<<<< - EP Nummer = $STNR" >&2
+	echo ">>>>ExtrahiereStaffelnummer<<<< - ST Nummer = $STNR" >&2
 	echo "$STNR"
 
 	return $STNRCHECK
@@ -314,16 +328,90 @@ function ExtrahiereStaffelnummer
 
 
 #-----------------------------------------------------------------------------------------
+# FUNKTION Prüfe Datei oder Ordner für Staffel
+#-----------------------------------------------------------------------------------------
+function PruefeDateiFuerStaffel
+{
+
+	echo ">>>>PruefeDateiFuerStaffel<<<< - Wenn gültige Datei return 0 (True)" >&2
+	local PRUEFDATEI=$1
+	local PRUEF_SERIE=$2
+	local DATEICHECK=1
+	local STNR
+
+	if [ -d "$PRUEFDATEI" ]; then # Wenn es sich um einen Ordner handelt dann...
+
+		echo "Datei ist Ordner: " $(basename "$PRUEFDATEI") >&2
+		echo "Suche Dateien..." >&2
+
+		while read PRUEF_FILE # Suche Dateien im Ordner
+		do
+
+			echo "Datei gefunden: " $(basename "$PRUEF_FILE") >&2
+
+			PruefeDateiGroeßeUndTyp "$PRUEF_FILE" "ERROR" "$PRUEF_SERIE"
+			if [ $? -eq 0 ]; then # Wenn es sich um zulässige Folge handelt dann...
+				
+				STNR=$(ExtrahiereStaffelnummer "$PRUEF_FILE" "$PRUEF_SERIE")
+		
+				if [ $? -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
+
+					STNR=$(IfZweiOderDreiStelligReturnTrue "$PRUEFDATEI" "ERROR" "$PRUEF_SERIE")
+					DATEICHECK=$?
+
+				else
+
+					DATEICHECK=0
+				fi
+
+			fi
+
+		done  <<< "$(find "$PRUEFDATEI" -type f)"
+
+	else
+
+		echo "Datei gefunden: " $(basename "$PRUEFDATEI") >&2
+		PruefeDateiGroeßeUndTyp "$PRUEFDATEI" "ERROR" "$PRUEF_SERIE"
+
+		if [ $? -eq 0 ]; then # Wenn es sich um zulässige Folge handelt dann...
+
+			STNR=$(ExtrahiereStaffelnummer "$PRUEFDATEI" "$PRUEF_SERIE")			
+			if [ $? -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
+
+				STNR=$(IfZweiOderDreiStelligReturnTrue "$PRUEFDATEI" "ERROR" "$PRUEF_SERIE")
+				DATEICHECK=$?
+
+			else
+
+				DATEICHECK=0
+
+			fi
+
+		fi
+
+	fi
+
+	echo ">>>>PruefeDateiFuerStaffel<<<< - Return = $DATEICHECK" >&2
+	echo ">>>>PruefeDateiFuerStaffel<<<< - ST Nummer = $STNR" >&2
+
+	echo "$STNR"
+
+	return $DATEICHECK
+
+}
+
+
+#-----------------------------------------------------------------------------------------
 # FUNKTION - Episode herausfinden
 #-----------------------------------------------------------------------------------------
-function EntferneUnnötigeStringTeile
+function EntferneUnnoetigeStringTeile
 {
 
 	local EXTFOLGE=$(basename "$1")
 	local SERIENNAME1=$(basename "$2")
 	local SERIENNAME2
 
-	echo ">>>>EntferneUnnötigeStringTeile<<<<" >&2
+	echo ">>>>EntferneUnnoetigeStringTeile<<<<" >&2
 
 	# Ersetze in String EXTFOLGE den String recht von "//" mit den string rechts von "/" (empty)
 	EXTFOLGE=${EXTFOLGE//1080p/}
@@ -347,7 +435,7 @@ function EntferneUnnötigeStringTeile
 	EXTFOLGE=${EXTFOLGE#$SERIENNAME2}
 
 
-	echo ">>>>EntferneUnnötigeStringTeile<<<< - Ergebnis = $EXTFOLGE" >&2
+	echo ">>>>EntferneUnnoetigeStringTeile<<<< - Ergebnis = $EXTFOLGE" >&2
 
 	echo "$EXTFOLGE"
 
@@ -364,48 +452,61 @@ function IfZweiOderDreiStelligReturnTrue
 	local ZWEIDREI_STNR=$2
 	local ZWEIDREI_SERIE=$3
 	local ZWEIDREICHECK=1
+	local EPNR
+	local STNR
 	
   	echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - Wenn gültige 2 oder 3 stellige Nummer return 0 (True)" >&2
 
-		local EPNR=$(EntferneUnnötigeStringTeile "$ZWEIDREI_DATEI" "$ZWEIDREI_SERIE")
+	EPNR=$(EntferneUnnoetigeStringTeile "$ZWEIDREI_DATEI" "$ZWEIDREI_SERIE")
 
-		# EPNR=$(basename "$EPNR" | sed "s/[^0-9]//g" | cut -d " " -f 2 )
-		EPNR=$(basename "$EPNR" | grep -E -o -i "[0-9][0-9]{0,2}" | sed q)
+	# EPNR=$(basename "$EPNR" | sed "s/[^0-9]//g" | cut -d " " -f 2 )
+	EPNR=$(basename "$EPNR" | grep -E -o -i "[0-9][0-9]{0,2}" | sed q)
 
-		echo "EPNR = $EPNR" >&2
+	if [[ $EPNR =~ ^[0-9]{2,2}$ ]]; then # Wenn zweistellige Nummer, dann...
 
-		if [[ $EPNR =~ ^[0-9]{1,2}$ ]]; then # Wenn zweistellige Nummer, dann...
+		EPNR=$( echo $EPNR | sed "s/^0*//" )
 
+		ZWEIDREICHECK=0
+
+	else
+
+		if [[ $EPNR =~ ^[0-9]{3,3}$ ]]; then # Wenn dreistellige Nummer, dann...
+				echo "EPNR2 = $EPNR" >&2
+			STNR=${EPNR:0:1} # der führende Digit ist die Staffelnummer
+			EPNR=${EPNR:1}	# die letzten 2 Digits sind die folgen Nummer
 			EPNR=$( echo $EPNR | sed "s/^0*//" )
-			echo "EPNR = $EPNR" >&2
 
 			ZWEIDREICHECK=0
 
 		else
 
-			if [[ $EPNR =~ ^[0-9]{1,3}$ ]]; then # Wenn dreistellige Nummer, dann...
-
-				EPNR=${EPNR:1}
-				EPNR=$( echo $EPNR | sed "s/^0*//" )
-				echo "EPNR = $EPNR" >&2
-
-				ZWEIDREICHECK=0
-
-			else
-
+			if [ "$ZWEIDREI_STNR" != "ERROR" ]; then # Prüfung ob IfZweiOderDreiStelligReturnTrue von PruefeDateiFuerStaffel aufgerufen wurde, wenn ja kein Logging
+				echo "EPNR4 = $EPNR" >&2
 				SchreibeInLogdatei "$ZWEIDREI_DATEI" "$ZWEIDREI_STNR" "$ZWEIDREI_SERIE" "3" "Folgennummer konnte nicht extrahiert werden"
-
-				ZWEIDREICHECK=1
 
 			fi
 
+			ZWEIDREICHECK=1
+
 		fi
 
-		echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - EP Nummer = $EPNR" >&2
+	fi
+
+	echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - Return = $ZWEIDREICHECK" >&2
+	echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - EP Nummer = $EPNR" >&2
+	echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - ST Nummer = $STNR" >&2
+
+	if [ "$ZWEIDREI_STNR" != "ERROR" ]; then # Prüfung ob IfZweiOderDreiStelligReturnTrue von PruefeDateiFuerStaffel aufgerufen wurde, wenn ja kein Logging
 
 		echo "$EPNR"
 
-		return $ZWEIDREICHECK
+	else
+
+		echo "$STNR"
+
+	fi
+
+	return $ZWEIDREICHECK
 
 }
 
@@ -422,9 +523,7 @@ function PruefeDateiGroeßeUndTyp
 
 	echo ">>>>PruefeDateiGroeßeUndTyp<<<< - Wenn Videodatei OK return 0 (True)" >&2
 
-
 	PruefeDateiTyp "$PRFDATGR_FILE" # Wenn OK return 0 (True)
-
 	if [ $? -eq 0 ]; then # Wenn der geforderte Dateityp enthalten ist überprüfe die Dateigröße
 
 	#prüfe ob datei kein Sample ist (größe der Datei)
@@ -438,35 +537,43 @@ function PruefeDateiGroeßeUndTyp
 
 			echo "Sample: " $(basename "$PRFDATGR_FILE") >&2
 			DATGRCHECK=1
+			
+			if [ $PRFDATGR_STNR != "ERROR" ]; then # Prüfung ob PruefeDateiGroeßeUndTyp von PruefeDateiFuerStaffel aufgerufen wurde, wenn ja kein Logging und löschen
 
-			SchreibeInLogdatei "$PRFDATGR_FILE" "$PRFDATGR_STNR" "$PRFDATGR_SERIE" "4" "Es handelt sich um eine Sampledatei"
-			#entferne Sample Sofort? NACHDENKEN!!
-			AddGesamtGeloescht "$PRFDATGR_SIZE"
+					SchreibeInLogdatei "$PRFDATGR_FILE" "$PRFDATGR_STNR" "$PRFDATGR_SERIE" "4" "Es handelt sich um eine Sampledatei"
+					#entferne Sample Sofort? NACHDENKEN!!
+					AddGesamtGeloescht "$PRFDATGR_SIZE"
+			fi
 
 		fi
 
   	else
 
 		echo "keine Video Datei: " $(basename "$PRFDATGR_FILE") >&2
-		file "$PRFDATGR_FILE" | grep -i  -e RAR -e archive -e 7z -e zip >/dev/null
 
-		if [ $? -eq 0 ]; then
 
-			SchreibeInLogdatei "$PRFDATGR_FILE" "$PRFDATGR_STNR" "$PRFDATGR_SERIE" "5" "Es handelt sich um ein Archiv"
-			#entferne Datei Sofort? NACHDENKEN!!	
-			AddGesamtGeloescht "$PRFDATGR_SIZE"
+		if [ "$PRFDATGR_STNR" != "ERROR" ]; then # Prüfung ob PruefeDateiGroeßeUndTyp von PruefeDateiFuerStaffel aufgerufen wurde, wenn ja kein Logging und löschen
 
-		else
+			file "$PRFDATGR_FILE" | grep -i  -e RAR -e archive -e 7z -e zip >/dev/null
 
-			SchreibeInLogdatei "$PRFDATGR_FILE" "$PRFDATGR_STNR" "$PRFDATGR_SERIE" "4" "Es handelt sich um keine Videodatei"
-			#entferne Datei Sofort? NACHDENKEN!!			
-			AddGesamtGeloescht "$PRFDATGR_SIZE"
+			if [ $? -eq 0 ]; then
 
-		fi
+				SchreibeInLogdatei "$PRFDATGR_FILE" "$PRFDATGR_STNR" "$PRFDATGR_SERIE" "5" "Es handelt sich um ein Archiv"
+				#entferne Datei Sofort? NACHDENKEN!!	
+				AddGesamtGeloescht "$PRFDATGR_SIZE"
+
+			else
+
+				SchreibeInLogdatei "$PRFDATGR_FILE" "$PRFDATGR_STNR" "$PRFDATGR_SERIE" "4" "Es handelt sich um keine Videodatei"
+				#entferne Datei Sofort? NACHDENKEN!!			
+				AddGesamtGeloescht "$PRFDATGR_SIZE"
+
+			fi
 
 			DATGRCHECK=1
 
-  	fi
+		fi
+	fi
 
 	echo ">>>>PruefeDateiGroeßeUndTyp<<<< - Return = $DATGRCHECK" >&2
 
@@ -574,15 +681,15 @@ function AddGesamtGeloescht
 
 
 #-----------------------------------------------------------------------------------------
-# FUNKTION Datei auf richtigkeit prüfen
+# FUNKTION Prüfe Datei oder Ordner für Folge
 #-----------------------------------------------------------------------------------------
-function PruefeDatei
+function PruefeDateiFuerFolge
 {
-	echo ">>>>PruefeDatei<<<< - Wenn gültige Datei return 0 (True)" >&2
+
+	echo ">>>>PruefeDateiFuerFolge<<<< - Wenn gültige Datei return 0 (True)" >&2
 	local PRUEFDATEI=$1
 	local PRUEF_STNR=$2
 	local PRUEF_SERIE=$3
-	local PRUEF_FOLGE
 	local DATEICHECK1=1
 	local DATEICHECK2=1
 
@@ -646,8 +753,8 @@ function PruefeDatei
 
 	fi
 
-	echo ">>>>PruefeDatei<<<< - Return = $DATEICHECK1" >&2
-	echo ">>>>PruefeDatei<<<< - EP Nummer = $EPNR" >&2
+	echo ">>>>PruefeDateiFuerFolge<<<< - Return = $DATEICHECK1" >&2
+	echo ">>>>PruefeDateiFuerFolge<<<< - EP Nummer = $EPNR" >&2
 
 	echo "$EPNR"
 
@@ -668,7 +775,7 @@ function IfStaffelReturnTrue
 
 	echo ">>>>IfStaffelReturnTrue<<<< - Wenn Staffelnummer OK return 0 (True)" >&2
 
-	if [ -d "$CHECK_STAFFEL" ]; then # Wenn es sich um einen Ordner handelt dann...
+	if [ -d "$CHECK_STAFFEL" ]; then # Wenn es sich um keinen Ordner handelt, dann Staffel = False
 
 		# Extrahiere nur die reine Staffel Nummer
 		STNR=$(basename "$CHECK_STAFFEL")
@@ -687,7 +794,7 @@ function IfStaffelReturnTrue
 		STNR=$(echo $STNR | sed "s/^0*//")
 		
 		COUNT=${#STNR}
-		if [ $COUNT -le 2 ]; then # Wenn weniger oder gleich 2 Digits
+		if [ $COUNT -le 2 ]; then # Wenn weniger oder gleich 2 Digits, dann 
 
 			STCHECK=0
 
@@ -702,18 +809,24 @@ function IfStaffelReturnTrue
 	# Prüfe ob die Datei oder der Ordner eine Folge ist, wenn Ja > Staffel = False
 	if [ $STCHECK -eq 0 ]; then
 
-		ExtrahiereFolgennummer "$CHECK_STAFFEL" "$STNR" "$CHECK_SERIE"
-
+		ExtrahiereFolgennummer "$CHECK_STAFFEL" "$CHECK_SERIE"
 		if [ $? -eq 0 ]; then
 
 			STCHECK=1
-			echo "STCHECK = $STCHECK" >&2
 
 		else
 
-			STCHECK=0
-			echo "STCHECK = $STCHECK" >&2
+			IfZweiOderDreiStelligReturnTrue "$CHECK_STAFFEL" "ERROR" "$CHECK_SERIE"
+			if [ $? -eq 0 ]; then
 
+				STCHECK=1
+
+			else
+
+				STCHECK=0
+
+			fi
+			#STCHECK=0
 		fi
 
 	fi
@@ -834,6 +947,29 @@ function SchreibeInLogdatei
 
 
 #-----------------------------------------------------------------------------------------
+# FUNKTION - Schreibe Taufungsprotokoll
+#-----------------------------------------------------------------------------------------
+function ProtokolliereTaufe
+{
+	local PROTO=$1
+	local PROTO_DATEIURSPRUNG=$2
+	local PROTO_DATEIZIEL=$3
+	local PROTO_STRING=$4
+
+	echo "Taufe wird Protokolliert..." >&2
+
+	case $PROTO in
+
+		1) 	echo -n -e "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< $PROTO_STRING >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\r\n"	>> ./massmove_umbenannt_$CreateLogTime.txt	;;
+		2)	echo -n -e "Neuer Dateiname: $PROTO_STRING | Ursprungsname: $(basename "$PROTO_DATEIURSPRUNG") | Pfad: $PROTO_DATEIZIEL\r\n"					>> ./massmove_umbenannt_$CreateLogTime.txt	;;
+		3)	echo -n -e "Folge wurde kopiert | Ursprungspfad: $PROTO_DATEIURSPRUNG | Neuerpfad $PROTO_DATEIZIEL\r\n" 										>> ./massmove_umbenannt_$CreateLogTime.txt	;;
+		4)	echo -n -e "Staffelordner wurde erstellt | Ursprungspfad: $PROTO_DATEIURSPRUNG | Neuerpfad $PROTO_DATEIZIEL\r\n" 								>> ./massmove_umbenannt_$CreateLogTime.txt	;;												
+	esac
+
+}
+
+
+#-----------------------------------------------------------------------------------------
 # FUNKTION - Eine Datei oder ein Ordner wird gelöscht
 #-----------------------------------------------------------------------------------------
 function IfExtraContentReturnTrue
@@ -884,7 +1020,7 @@ echo "Loop 3 - Datei:" $(basename "$FOLGE")  >&2
 
 		let EPCOUNT=EPCOUNT+1 # Zähler für Endprotokoll
 
-		local EPNR=$(PruefeDatei "$FOLGE" "$STNR_1" "$SERIE_1")
+		local EPNR=$(PruefeDateiFuerFolge "$FOLGE" "$STNR_1" "$SERIE_1")
 		printout "$SERIE_1" "$STNR_1" "$EPNR" "$FOLGE"
 
 	done
@@ -899,6 +1035,8 @@ function MittlereSchleife_Staffeln
 
 local SERIE_1=$1
 local STAFFEL
+local EPNR
+local STNR
 
 for STAFFEL in "$SERIE_1"/*; do # STAFFELN SCHLEIFE - Für jedes gefundene Element im angegebenen Pfad einen Schleifendurchlauf
 
@@ -922,7 +1060,10 @@ for STAFFEL in "$SERIE_1"/*; do # STAFFELN SCHLEIFE - Für jedes gefundene Eleme
 		echo "Extrahiere Staffelnummer aus Datei..."  >&2
 		echo "Erstellen von Staffelordnern notwendig"  >&2
 
-		local EPNR=$(PruefeDatei "$STAFFEL" "$STNR" "$SERIE_1")
+
+		STNR=$(PruefeDateiFuerStaffel "$STAFFEL" "$SERIE_1")
+		EPNR=$(PruefeDateiFuerFolge "$STAFFEL" "$STNR" "$SERIE_1")
+
 
 		printout "$SERIE_1" "$STNR" "$EPNR" "$STAFFEL"
 		# Staffelordner erstellen
@@ -961,6 +1102,8 @@ echo "Loop 1 - Datei:" $(basename "$SERIE")  >&2
 			CHECKXCONTENT=$?
 
 			if [ $CHECKSTAFFEL -eq 1 ] && [ $CHECKXCONTENT -eq 1 ]; then # Wenn letzter Rückgabe Wert 1 (Error) dann...
+
+				ProtokolliereTaufe "1" "$SEARCHPATH" "$SEARCHPATH" "$( basename "$SERIE" )"
 
 				MittlereSchleife_Staffeln "$SERIE"
 
@@ -1046,12 +1189,18 @@ if [ -n "$1" ]; then # Wenn der String ($1 = 1. Aufrufparameter) nicht leer ist 
 fi
 
 # Entscheidung - Testmodus oder Echtmodus?
-if [ "$1" = "-notest" ] || [ "$2" = "-notest" ] ||  [ "$3" = "-notest" ]; then # Wenn der einer der Aufrufparameter -notest enthält führe Programm im Echtmodus aus
+if [ "$1" = "-notest" ] || [ "$2" = "-notest" ] || [ "$3" = "-notest" ] || [ "$4" = "-notest" ] || [ "$5" = "-notest" ]; then # Wenn der einer der Aufrufparameter -notest enthält führe Programm im Echtmodus aus
 
     TESTMODUS=0
 
 fi
 
+# Entscheidung - Testmodus oder Echtmodus?
+if [ "$1" = "-delonly" ] || [ "$2" = "-delonly" ] || [ "$3" = "-delonly" ] || [ "$4" = "-delonly" ] || [ "$5" = "-delonly" ]; then # Wenn der einer der Aufrufparameter -notest enthält führe Programm im Echtmodus aus
+
+    DELONLY=0
+
+fi
 ObersteSchleife_Serien # Los gehts
 
 #-----------------------------------------------------------------------------------------
@@ -1067,7 +1216,7 @@ ObersteSchleife_Serien # Los gehts
 	echo "bearbeitete Folgen:" "$EPCOUNT"
 	echo "gesamt Größe gelöschter Objekte:" $(sed -n 1p ./delbytes.txt) "Bytes"
 
-	echo "----------------------------------------------------------------\r\n" 			>> ./massmove_log_$CreateLogTime.txt
+	echo -e "----------------------------------------------------------------\r\n" 			>> ./massmove_log_$CreateLogTime.txt
 	echo -n "Erfolgreich bearbetet | "														>> ./massmove_log_$CreateLogTime.txt
 	echo -e "elapsed time:" $((after - $before)) "seconds\r\n"								>> ./massmove_log_$CreateLogTime.txt
 	echo -e "bearbeitete Serien:" "$SERIECOUNT\r\n"											>> ./massmove_log_$CreateLogTime.txt
