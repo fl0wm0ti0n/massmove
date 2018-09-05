@@ -11,8 +11,6 @@ export TESTMODUS=1
 export DELONLY=0
 export SEARCHPATH=""
 
-#entferne Logdatei wenn vorhanden
-#rm -f massmove_log.txt
 # lege logdatei mit aktuellem Zeitstempel an
 echo -e "Start der Protokollierung: $CreateLogTime\r\n" > massmove_log_$CreateLogTime.txt
 echo -e "Start der Protokollierung: $CreateLogTime\r\n" > massmove_umbenannt_$CreateLogTime.txt
@@ -157,6 +155,7 @@ function ExtrahiereFolgennummer
 
 	local EXTRAKT_DATEI=$1
 	local EXTRAKT_SERIE=$2
+	local PRUEF_CHKSTAFFEL=$3
 	local EPNRCHECK=1
 	local EPNR=0
 	local ORES
@@ -175,6 +174,7 @@ function ExtrahiereFolgennummer
 
 	COUNT=${#EPNR}
 	if [ $COUNT -gt 2 ]; then # Wenn EPNR größer 2 wird angenommen, dass der Serienname eine Zahl enthielt. Vom String Anfang bis
+
 		NUMBERINSERIE=$(basename "$EXTRAKT_SERIE")
 		NUMBERINSERIE=${NUMBERINSERIE//[!0-9]/}
 
@@ -186,48 +186,54 @@ function ExtrahiereFolgennummer
 
 	fi
 
-	if [ $FRES -eq 1 ]; then
 
-		# prüfe ob ordnername eine EP nummer enthält
-		DIRSTRING=$( dirname "$EXTRAKT_DATEI" )
-		DIRSTRING=$( basename "$DIRSTRING" )
+		if [ $FRES -eq 1 ]; then
+
+			if [ "$PRUEF_CHKSTAFFEL" = "0" ]; then
 		
-		EPNR=$(EntferneUnnoetigeStringTeile "$DIRSTRING" "$EXTRAKT_SERIE")
+				# prüfe ob ordnername eine EP nummer enthält
+				DIRSTRING=$( dirname "$EXTRAKT_DATEI" )
+				DIRSTRING=$( basename "$DIRSTRING" )
+				
+				EPNR=$(EntferneUnnoetigeStringTeile "$DIRSTRING" "$EXTRAKT_SERIE")
 
-		EPNR=$(echo "$EPNR" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
-		ORES=$?
+				EPNR=$(echo "$EPNR" | grep -E -o -i "([efx]|ep\.?)[0-9]*" | grep -E -o "[0-9][0-9]{0,2}")
+				ORES=$?
 
-		EPNR=$(echo $EPNR | sed q ) # Nimm erste zeile
-		EPNR=$(echo $EPNR | sed "s/^0*//") # Entferne führende Null
+				EPNR=$(echo $EPNR | sed q ) # Nimm erste zeile
+				EPNR=$(echo $EPNR | sed "s/^0*//") # Entferne führende Null
 
-		COUNT=${#EPNR}
-		if [ $COUNT -gt 2 ]; then # Wenn EPNR größer 2 wird angenommen, dass der Serienname eine Zahl enthielt. Vom String Anfang bis
-			NUMBERINSERIE=$(basename "$EXTRAKT_SERIE")
-			NUMBERINSERIE=${NUMBERINSERIE//[!0-9]/}
+				COUNT=${#EPNR}
+				if [ $COUNT -gt 2 ]; then # Wenn EPNR größer 2 wird angenommen, dass der Serienname eine Zahl enthielt. Vom String Anfang bis
+				
+					NUMBERINSERIE=$(basename "$EXTRAKT_SERIE")
+					NUMBERINSERIE=${NUMBERINSERIE//[!0-9]/}
 
-			echo "NUMBERINSERIE = $NUMBERINSERIE" >&2
+					echo "NUMBERINSERIE = $NUMBERINSERIE" >&2
 
-			EPNR=$(echo $EPNR | sed "s/^$NUMBERINSERIE*//")
+					EPNR=$(echo $EPNR | sed "s/^$NUMBERINSERIE*//")
 
-			echo "EPNR = $EPNR" >&2
+					echo "EPNR = $EPNR" >&2
+				fi
 
-		fi
+				if [ $ORES -eq 1 ]; then
 
-		if [ $ORES -eq 1 ]; then
+					EPNRCHECK=1
 
-			EPNRCHECK=1
+				else
+
+					EPNRCHECK=0
+
+				fi
+
+			
+			fi
 
 		else
 
 			EPNRCHECK=0
 
 		fi
-
-	else
-
-		EPNRCHECK=0
-
-	fi
 
 	echo ">>>>ExtrahiereFolgennummer<<<< - Return = $EPNRCHECK" >&2
 	echo ">>>>ExtrahiereFolgennummer<<<< - EP Nummer = $EPNR" >&2
@@ -462,9 +468,8 @@ function IfZweiOderDreiStelligReturnTrue
 	# EPNR=$(basename "$EPNR" | sed "s/[^0-9]//g" | cut -d " " -f 2 )
 	EPNR=$(basename "$EPNR" | grep -E -o -i "[0-9][0-9]{0,2}" | sed q)
 
+	EPNR=$( echo $EPNR | sed "s/^0*//" )
 	if [[ $EPNR =~ ^[0-9]{2,2}$ ]]; then # Wenn zweistellige Nummer, dann...
-
-		EPNR=$( echo $EPNR | sed "s/^0*//" )
 
 		ZWEIDREICHECK=0
 
@@ -690,8 +695,10 @@ function PruefeDateiFuerFolge
 	local PRUEFDATEI=$1
 	local PRUEF_STNR=$2
 	local PRUEF_SERIE=$3
+	local PRUEF_CHKSTAFFEL=$4
 	local DATEICHECK1=1
 	local DATEICHECK2=1
+	local EPNRCHECK
 
 	if [ -d "$PRUEFDATEI" ]; then # Wenn es sich um einen Ordner handelt dann...
 
@@ -708,9 +715,9 @@ function PruefeDateiFuerFolge
 
 			if [ $? -eq 0 ]; then # Wenn es sich um zulässige Folge handelt dann...
 				
-				EPNR=$(ExtrahiereFolgennummer "$PRUEF_FILE" "$PRUEF_SERIE")
-		
-				if [ $? -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
+				EPNR=$(ExtrahiereFolgennummer "$PRUEF_FILE" "$PRUEF_SERIE" "$PRUEF_CHKSTAFFEL")
+				EPNRCHECK=$?
+				if [ $EPNRCHECK -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
 
 					EPNR=$(IfZweiOderDreiStelligReturnTrue "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE")
 					DATEICHECK1=$?
@@ -725,23 +732,25 @@ function PruefeDateiFuerFolge
 		done  <<< "$(find "$PRUEFDATEI" -type f)"
 
 	else
+
 		echo "Datei gefunden: " $(basename "$PRUEFDATEI") >&2
 		PruefeDateiGroeßeUndTyp "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE"
 
 		if [ $? -eq 0 ]; then # Wenn es sich um zulässige Folge handelt dann...
 
-			local EPNR=$(ExtrahiereFolgennummer "$PRUEFDATEI" "$PRUEF_SERIE")
-							
-				if [ $? -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
+			EPNR=$(ExtrahiereFolgennummer "$PRUEFDATEI" "$PRUEF_SERIE" "$PRUEF_CHKSTAFFEL")
+			EPNRCHECK=$?
 
-					EPNR=$(IfZweiOderDreiStelligReturnTrue "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE")
-					DATEICHECK1=$?
+			if [ $EPNRCHECK -eq 1 ]; then # Wenn die EP Nummer NOTOK dann...
+				echo "HIER2 = $?" >&2
+				EPNR=$(IfZweiOderDreiStelligReturnTrue "$PRUEFDATEI" "$PRUEF_STNR" "$PRUEF_SERIE")
+				DATEICHECK1=$?
 
-				else
+			else
+				echo "HIER3 = $?" >&2
+				DATEICHECK1=0
 
-					DATEICHECK1=0
-
-				fi
+			fi
 
 		fi
 
@@ -809,24 +818,26 @@ function IfStaffelReturnTrue
 	# Prüfe ob die Datei oder der Ordner eine Folge ist, wenn Ja > Staffel = False
 	if [ $STCHECK -eq 0 ]; then
 
-		ExtrahiereFolgennummer "$CHECK_STAFFEL" "$CHECK_SERIE"
+		ExtrahiereFolgennummer "$CHECK_STAFFEL" "$CHECK_SERIE" "1"
 		if [ $? -eq 0 ]; then
 
 			STCHECK=1
 
 		else
 
-			IfZweiOderDreiStelligReturnTrue "$CHECK_STAFFEL" "ERROR" "$CHECK_SERIE"
-			if [ $? -eq 0 ]; then
+			# IfZweiOderDreiStelligReturnTrue "$CHECK_STAFFEL" "ERROR" "$CHECK_SERIE"
+			# if [ $? -eq 0 ]; then
 
-				STCHECK=1
+			# 	STCHECK=1
 
-			else
+			# else
 
-				STCHECK=0
+			# 	STCHECK=0
 
-			fi
-			#STCHECK=0
+			# fi
+
+			STCHECK=0
+
 		fi
 
 	fi
@@ -1012,7 +1023,9 @@ function InnersteSchleife_Folgen
 local STAFFEL_1=$1
 local STNR_1=$2
 local SERIE_1=$3
-local FOLGE 
+local CHECKSTAFFEL_1
+local FOLGE
+local EPNR
 
 	for FOLGE in "$STAFFEL_1"/*; do # FOLGEN SCHLEIFE - Für jedes gefundene Element im angegebenen Pfad einen Schleifendurchlauf
 
@@ -1020,7 +1033,7 @@ echo "Loop 3 - Datei:" $(basename "$FOLGE")  >&2
 
 		let EPCOUNT=EPCOUNT+1 # Zähler für Endprotokoll
 
-		local EPNR=$(PruefeDateiFuerFolge "$FOLGE" "$STNR_1" "$SERIE_1")
+		EPNR=$(PruefeDateiFuerFolge "$FOLGE" "$STNR_1" "$SERIE_1" "$CHECKSTAFFEL_1")
 		printout "$SERIE_1" "$STNR_1" "$EPNR" "$FOLGE"
 
 	done
@@ -1033,47 +1046,48 @@ echo "Loop 3 - Datei:" $(basename "$FOLGE")  >&2
 function MittlereSchleife_Staffeln
 {
 
-local SERIE_1=$1
-local STAFFEL
-local EPNR
-local STNR
+	local SERIE_1=$1
+	local STAFFEL
+	local EPNR
+	local STNR
+	local CHECKSTAFFEL
+	local CHECKXCONTENT
 
-for STAFFEL in "$SERIE_1"/*; do # STAFFELN SCHLEIFE - Für jedes gefundene Element im angegebenen Pfad einen Schleifendurchlauf
+	for STAFFEL in "$SERIE_1"/*; do # STAFFELN SCHLEIFE - Für jedes gefundene Element im angegebenen Pfad einen Schleifendurchlauf
 
-	echo "Loop 2 - Datei:" $(basename "$STAFFEL")  >&2
+		echo "Loop 2 - Datei:" $(basename "$STAFFEL")  >&2
 
-	let SEASONCOUNT=SEASONCOUNT+1  # Zähler für Endprotokoll
+		let SEASONCOUNT=SEASONCOUNT+1  # Zähler für Endprotokoll
 
-	STNR=$(IfStaffelReturnTrue "$STAFFEL" "$SERIE_1")
-	CHECKSTAFFEL=$?
-	IfExtraContentReturnTrue "$STAFFEL" "$SERIE_1"
-	CHECKXCONTENT=$?
+		STNR=$(IfStaffelReturnTrue "$STAFFEL" "$SERIE_1")
+		CHECKSTAFFEL=$?
+		IfExtraContentReturnTrue "$STAFFEL" "$SERIE_1"
+		CHECKXCONTENT=$?
 
-	if [ $CHECKSTAFFEL -eq 0 ] && [ $CHECKXCONTENT -eq 1 ]; then # Wenn letzter Rückgabe Wert 0 (Success) dann...
+		if [ $CHECKSTAFFEL -eq 0 ] && [ $CHECKXCONTENT -eq 1 ]; then # Wenn letzter Rückgabe Wert 0 (Success) dann...
 
-		InnersteSchleife_Folgen "$STAFFEL" "$STNR" "$SERIE_1"
+			InnersteSchleife_Folgen "$STAFFEL" "$STNR" "$SERIE_1" "$CHECKSTAFFEL"
 
-	else
+		else
 
-		echo "Kein Staffelordner: " $(basename "$STAFFEL") " - WARNING"  >&2
-		echo "Prüfe ob gültige Folge..."  >&2
-		echo "Extrahiere Staffelnummer aus Datei..."  >&2
-		echo "Erstellen von Staffelordnern notwendig"  >&2
+			if [ $CHECKXCONTENT -eq 1 ]; then
+				echo "Kein Staffelordner: " $(basename "$STAFFEL") " - WARNING"  >&2
+				echo "Prüfe ob gültige Folge..."  >&2
+				echo "Extrahiere Staffelnummer aus Datei..."  >&2
+				echo "Erstellen von Staffelordnern notwendig"  >&2
 
+				STNR=$(PruefeDateiFuerStaffel "$STAFFEL" "$SERIE_1")
+				EPNR=$(PruefeDateiFuerFolge "$STAFFEL" "$STNR" "$SERIE_1" "$CHECKSTAFFEL")
 
-		STNR=$(PruefeDateiFuerStaffel "$STAFFEL" "$SERIE_1")
-		EPNR=$(PruefeDateiFuerFolge "$STAFFEL" "$STNR" "$SERIE_1")
+				printout "$SERIE_1" "$STNR" "$EPNR" "$STAFFEL"
+				# Staffelordner erstellen
+				# Datei nehmen und in Staffelordner verschieben
+				# loop neustarten
+	
+			fi
+		fi
 
-
-		printout "$SERIE_1" "$STNR" "$EPNR" "$STAFFEL"
-		# Staffelordner erstellen
-		# Datei nehmen und in Staffelordner verschieben
-		# loop neustarten
-
-
-	fi
-
-done
+	done
 
 }
 
