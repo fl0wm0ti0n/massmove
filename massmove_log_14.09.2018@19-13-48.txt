@@ -1,4 +1,4 @@
-Start der Protokollierung: 09.09.2018@19-24-51
+Start der Protokollierung: 14.09.2018@19-13-48
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um eine Sampledatei | Staffel  
 1  | 
@@ -6530,6 +6530,351 @@ Serienname:  Californication  |
 Datei:  Thumbs.db  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Californication/Thumbs.db 
 
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0101  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0101 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0102  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0102 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0103  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0103 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0104  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0104 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0105  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0105 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0106  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0106 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0107  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0107 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0108  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0108 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0109  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0109 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0210  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0210 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0211  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0211 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0212  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0212 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0213  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0213 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0214  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0214 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0215  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0215 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0216  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0216 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0217  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0217 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0318  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0318 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0319  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0319 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0320  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0320 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0321  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0321 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0322  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0322 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0323  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0323 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0324  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0324 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0325  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0325 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0426  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0426 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0427  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0427 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0428  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0428 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0429  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0429 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0430  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0430 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0431  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0431 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0532  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0532 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0533  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0533 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0534  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0534 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0535  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0535 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0536  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0536 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0537  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0537 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0638  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0638 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0639  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0639 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0640  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0640 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0741  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0741 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0742  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0742 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0743  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0743 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0744  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0744 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0745  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0745 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0846  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0846 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0847  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0847 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0848  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0848 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0849  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0849 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0950  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0950 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0951  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0951 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0952  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0952 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0953  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0953 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0954  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0954 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb0955  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb0955 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1056  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1056 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1057  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1057 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1058  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1058 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1059  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1059 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1060  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1060 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1061  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1061 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1062  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1062 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1063  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1063 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1064  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1064 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1065  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1065 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1066  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1066 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1067  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1067 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1068  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1068 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Columbo  | 
+Datei:  clmb1069  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Columbo/clmb1069 
+
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 4  | 
 Serienname:  Continuum (HD)  | 
@@ -6900,21 +7245,115 @@ Serienname:  Defiance (HD)  |
 Datei:  tvp-defiance-s02e13-720p.nfo  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Defiance (HD)/Staffel 2/Defiance.S02E13.Fast.haette.ich.gebetet.GERMAN.DL.DUBBED.720p.WebHD.x264-TVP/tvp-defiance-s02e13-720p.nfo 
 
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel    | 
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E01-Zukunft.ohne.Vergangenheit.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E01-Zukunft.ohne.Vergangenheit.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E02-Blutspur.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E02-Blutspur.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E03-Therapie-Wahnsinn.-.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E03-Therapie-Wahnsinn.-.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E04-Die.Leiche.Im.Fass.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E04-Die.Leiche.Im.Fass.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
 Serienname:  Der Fall John Doe  | 
 Datei:  DFJohnD-E05-Wo.Ist.Doe.Nr.2.avi  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E05-Wo.Ist.Doe.Nr.2.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E06-Die.Kunst.Des.Verschwindens.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E06-Die.Kunst.Des.Verschwindens.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E07-Der.Club.Der.Genies.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E07-Der.Club.Der.Genies.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E08-Die.Heimkehr.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E08-Die.Heimkehr.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E09-Mord.Über.Den.Wolken.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E09-Mord.Über.Den.Wolken.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E10-Herzliches.Beileid.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E10-Herzliches.Beileid.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E11-Das.Spiel.Geht.Weiter..avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E11-Das.Spiel.Geht.Weiter..avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E12-Tod.Durch.Musik.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E12-Tod.Durch.Musik.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E13-Die.Doppelgänger.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E13-Die.Doppelgänger.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E14-Auf der Suche nach Phoenix.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E14-Auf der Suche nach Phoenix.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E15-Die.Hellseherin.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E15-Die.Hellseherin.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E16-Besuch.Aus.Dem.All.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E16-Besuch.Aus.Dem.All.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E17-Pockenalarm.In.Seattle.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E17-Pockenalarm.In.Seattle.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E18-Der.Fall.Moretti.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E18-Der.Fall.Moretti.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E19-Vom.Blitz.Getroffen.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E19-Vom.Blitz.Getroffen.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E20-In.Den.fÃ¤ngen.Von.Terroristen.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E20-In.Den.fÃ¤ngen.Von.Terroristen.avi 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  Der Fall John Doe  | 
+Datei:  DFJohnD-E21-Wie.Phoenix.Aus.Der.Asche.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/DFJohnD-E21-Wie.Phoenix.Aus.Der.Asche.avi 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel    | 
 Serienname:  Der Fall John Doe  | 
 Datei:  Thumbs.db  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Der Fall John Doe/Thumbs.db 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Dexter  | 
-Datei:  S01 (2).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (2).avi 
 
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 1  | 
@@ -6931,80 +7370,8 @@ Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 1  | 
 Serienname:  Dexter  | 
-Datei:  S01 (9).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (9).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Dexter  | 
-Datei:  S01 (8).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (8).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Dexter  | 
-Datei:  S01 (7).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (7).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Dexter  | 
-Datei:  S01 (4).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (4).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Dexter  | 
-Datei:  S01 (3).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (3).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Dexter  | 
-Datei:  S01 (5).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (5).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Dexter  | 
 Datei:  S01 (12).avi  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (12).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Dexter  | 
-Datei:  S01 (1).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (1).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Dexter  | 
-Datei:  S01 (6).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe01/S01/S01 (6).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Dexter  | 
-Datei:  S02 (4).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (4).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Dexter  | 
-Datei:  S02 (3).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (3).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Dexter  | 
-Datei:  S02 (2).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (2).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Dexter  | 
-Datei:  S02 (7).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (7).avi 
 
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 2  | 
@@ -7024,59 +7391,11 @@ Serienname:  Dexter  |
 Datei:  S02 (10).avi  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (10).avi 
 
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Dexter  | 
-Datei:  S02 (9).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (9).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Dexter  | 
-Datei:  S02 (8).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (8).avi 
-
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
 Serienname:  Dexter  | 
 Datei:  Episodenguide S02.txt  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/Episodenguide S02.txt 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Dexter  | 
-Datei:  S02 (5).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (5).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Dexter  | 
-Datei:  S02 (6).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (6).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Dexter  | 
-Datei:  S02 (1).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe02/S02/S02 (1).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Dexter  | 
-Datei:  S03 (3).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (3).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Dexter  | 
-Datei:  S03 (1).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (1).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Dexter  | 
-Datei:  S03 (2).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (2).avi 
 
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 3  | 
@@ -7093,44 +7412,8 @@ Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 3  | 
 Serienname:  Dexter  | 
-Datei:  S03 (8).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (8).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Dexter  | 
-Datei:  S03 (9).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (9).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Dexter  | 
 Datei:  S03 (10).avi  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (10).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Dexter  | 
-Datei:  S03 (4).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (4).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Dexter  | 
-Datei:  S03 (7).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (7).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Dexter  | 
-Datei:  S03 (5).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (5).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Dexter  | 
-Datei:  S03 (6).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe03/S03/S03 (6).avi 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 3  | 
@@ -7141,44 +7424,14 @@ Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 4  | 
 Serienname:  Dexter  | 
-Datei:  S04 (6).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe04/S04/S04 (6).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Dexter  | 
-Datei:  S04 (4).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe04/S04/S04 (4).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Dexter  | 
 Datei:  S04 (11).avi  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe04/S04/S04 (11).avi 
 
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 4  | 
 Serienname:  Dexter  | 
-Datei:  S04 (3).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe04/S04/S04 (3).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Dexter  | 
-Datei:  S04 (1).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe04/S04/S04 (1).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Dexter  | 
 Datei:  S04 (10).avi  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe04/S04/S04 (10).avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Dexter  | 
-Datei:  S04 (2).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe04/S04/S04 (2).avi 
 
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 4  | 
@@ -7191,12 +7444,6 @@ Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Video
 Serienname:  Dexter  | 
 Datei:  Episodenguide S04.txt  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe04/S04/Episodenguide S04.txt 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Dexter  | 
-Datei:  S04 (5).avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dexter/DeDe04/S04/S04 (5).avi 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um eine Sampledatei | Staffel  
 7  | 
@@ -7650,301 +7897,13 @@ Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Die wilden 
 
 Fehlecode MM06 | Ordner ist leer | Ursache: Der Staffelordner enthält keine Dateien oder Ordner | Staffel  -  | 
 Serienname:  Dragonball Z  | 
-Datei:  blacklist.txt delbytes.txt dtyplist.txt massmove_log_09.09.2018@19-24-51.txt massmove.pap massmove.sh massmove.sh.bak massmove.sln massmove_umbenannt_09.09.2018@19-24-51.txt  | 
+Datei:  blacklist.txt delbytes.txt dtyplist.txt massmove_log_14.09.2018@19-13-48.txt massmove.pap massmove.sh massmove.sh.bak massmove.sln massmove_umbenannt_14.09.2018@19-13-48.txt  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dragonball Z/3.Cell-Saga 126-199/* 
 
 Fehlecode MM06 | Ordner ist leer | Ursache: Der Staffelordner enthält keine Dateien oder Ordner | Staffel  -  | 
 Serienname:  Dragonball Z  | 
-Datei:  blacklist.txt delbytes.txt dtyplist.txt massmove_log_09.09.2018@19-24-51.txt massmove.pap massmove.sh massmove.sh.bak massmove.sln massmove_umbenannt_09.09.2018@19-24-51.txt  | 
+Datei:  blacklist.txt delbytes.txt dtyplist.txt massmove_log_14.09.2018@19-13-48.txt massmove.pap massmove.sh massmove.sh.bak massmove.sln massmove_umbenannt_14.09.2018@19-13-48.txt  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Dragonball Z/4.Boo-Saga 200-291/* 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E01.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E01.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E02.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E02.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E03.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E03.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E04.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E04.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E05.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E05.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E06.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E06.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E07.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E07.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E08.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E08.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E09.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E09.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E10.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E10.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E11.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E11.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E12.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E12.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E13.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E13.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E14.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E14.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E15.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E15.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E16.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E16.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E17.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E17.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E18.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E18.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E19.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E19.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E20.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E20.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E21.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E21.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E22.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E22.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E23.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E23.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Elementary  | 
-Datei:  S01 E24.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S1/S01 E24.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E01.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E01.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E02.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E02.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E03.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E03.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E04.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E04.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E05.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E05.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E06.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E06.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E07.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E07.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E08.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E08.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E09.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E09.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E10.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E10.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E11.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E11.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E12.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E12.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E13.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E13.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E14.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E14.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E15.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E15.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E16.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E16.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E17.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E17.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E18.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E18.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E19.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E19.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E20.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E20.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E21.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E21.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E22.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E22.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E23.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E23.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Elementary  | 
-Datei:  S02 E24.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Elementary/S2/S02 E24.mkv 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
@@ -12079,12 +12038,6 @@ Serienname:  Lost  |
 Datei:  tgf_lost_s05-xvid.nfo  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Lost/Staffel 5/tgf_lost_s05-xvid.nfo 
 
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-6  | 
-Serienname:  Lost  | 
-Datei:  lost6x11.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Lost/Staffel 6/lost6x11.avi 
-
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um eine Sampledatei | Staffel  
 6  | 
 Serienname:  Lost  | 
@@ -12659,12 +12612,6 @@ Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Video
 Serienname:  Mars  | 
 Datei:  cdd-mars_s01e06_ger_720p_x264.nfo  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Mars/Mars.S01E06.Schwere.Entscheidung.GERMAN.720p.DOKU.HDTV.x264-CDD/cdd-mars_s01e06_ger_720p_x264.nfo 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Marvels Agents of S.H.I.E.L.D  | 
-Datei:  02 - 0-8-4 - HQM.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Marvels Agents of S.H.I.E.L.D/Staffel 1/02 - 0-8-4 - HQM.mkv 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 3  | 
@@ -14895,11 +14842,6 @@ Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Video
 Serienname:  Once upon a Time  | 
 Datei:  tvs-ouat-dd51-ded-dl-18p-ithd-avc-200.nfo  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Once upon a Time/108WEB-OnceUponaTimeS02E00-TVS/tvs-ouat-dd51-ded-dl-18p-ithd-avc-200.nfo 
-
-Fehlecode MM02 | Kein Staffelordner oder ähnlches | Ursache: Enthält im Namen film/movie, spe[cz]ial oder extra | Staffel  nichts  | 
-Serienname:  s02e00.Special - Die Magie kehrt zurück.mp4  | 
-Datei:  Once upon a Time  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Once upon a Time 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um eine Sampledatei | Staffel  
 1  | 
@@ -19762,12 +19704,6 @@ Serienname:  Simpsons  |
 Datei:  Thumbs.db  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S04/Thumbs.db 
 
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Simpsons  | 
-Datei:  Die.Simpsons.S05.BONUS.Nicht.benutzte.Szenen.aus.Staffel.5.en.DVDivX.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Simpsons/Die.Simpsons.S05/Die.Simpsons.S05.BONUS.Nicht.benutzte.Szenen.aus.Staffel.5.en.DVDivX.avi 
-
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 5  | 
 Serienname:  Simpsons  | 
@@ -19865,945 +19801,15 @@ Datei:  tvs-atlantis-ithd-101-102.avi  |
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate Atlantis/Staffel 1/tvs-atlantis-ithd-101-102.avi 
 
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Stargate SG1  | 
-Datei:  19 - Die Invasion Teil 1.divx  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1/Staffel 1/19 - Die Invasion Teil 1.divx 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Stargate SG1  | 
-Datei:  20 - Die Invasion Teil 2.divx  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1/Staffel 1/20 - Die Invasion Teil 2.divx 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Stargate SG1  | 
-Datei:  21 - Die Invasion Teil 3.divx  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1/Staffel 1/21 - Die Invasion Teil 3.divx 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 2  | 
 Serienname:  Stargate SG1  | 
-Datei:  11 - Die Tokra Teil 1.divx  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1/Staffel 2/11 - Die Tokra Teil 1.divx 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Stargate SG1  | 
-Datei:  12 - Die Tokra Teil 2.divx  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1/Staffel 2/12 - Die Tokra Teil 2.divx 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Stargate SG1  | 
-Datei:  22 - Die Höhle des Löwen Teil 1.divx  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1/Staffel 2/22 - Die Höhle des Löwen Teil 1.divx 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Stargate SG1  | 
-Datei:  01 - Die Höhle des Löwen Teil 2.divx  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1/Staffel 3/01 - Die Höhle des Löwen Teil 2.divx 
+Datei:  21 - 1969.divx  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1/Staffel 2/21 - 1969.divx 
 
 Fehlecode MM02 | Kein Staffelordner oder ähnlches | Ursache: Enthält im Namen film/movie, spe[cz]ial oder extra | Staffel  nichts  | 
-Serienname:  Special Stargate.SG.1.-.Im.Spiegel.der.Wissenschaft.XviD.avi  | 
-Datei:  Stargate SG1 Im Spiegel der Wissenschaft  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1 Im Spiegel der Wissenschaft 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E01+02 Der Abgesandte DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E01+02 Der Abgesandte DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E03 Die Khon-Ma DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E03 Die Khon-Ma DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E04 Unter Verdacht DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E04 Unter Verdacht DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E05 Babel DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E05 Babel DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E06 Tosk, der Gejagte DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E06 Tosk, der Gejagte DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E07 Q - unerwünscht DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E07 Q - unerwünscht DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E08 Der Fall „Dax“ DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E08 Der Fall „Dax“ DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E09 Der Parasit DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E09 Der Parasit DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E10 Chula - das Spiel DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E10 Chula - das Spiel DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E11 Die Nachfolge DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E11 Die Nachfolge DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E12 Der Steinwandler DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E12 Der Steinwandler DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E13 Die Prophezeiung DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E13 Die Prophezeiung DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E14 Die Legende von Dal'Rok DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E14 Die Legende von Dal'Rok DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E15 Mulliboks Mond DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E15 Mulliboks Mond DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E16 Macht der Phantasie DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E16 Macht der Phantasie DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E17 Persönlichkeiten DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E17 Persönlichkeiten DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E18 Meuterei DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E18 Meuterei DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E19 Der undurchschaubare Maritza DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E19 Der undurchschaubare Maritza DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S01 E20 Blasphemie DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S01/STAR TREK DS9 S01 E20 Blasphemie DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E01 Die Heimkehr DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E01 Die Heimkehr DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E02 Der Kreis DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E02 Der Kreis DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E03 Die Belagerung DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E03 Die Belagerung DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E04 Der Symbiont DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E04 Der Symbiont DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E05 Die Konspiration DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E05 Die Konspiration DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E06 Das „Melora“-Problem DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E06 Das „Melora“-Problem DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E07 Profit oder Partner! DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E07 Profit oder Partner! DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E08 Die Ermittlung DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E08 Die Ermittlung DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E09 Rätselhafte Fenna DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E09 Rätselhafte Fenna DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E10 Auge des Universums DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E10 Auge des Universums DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E11 Rivalen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E11 Rivalen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E12 Metamorphosen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E12 Metamorphosen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E13 Das Harvester-Desaster DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E13 Das Harvester-Desaster DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E14 O'Briens Identität DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E14 O'Briens Identität DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E15 Das Paradiesexperiment DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E15 Das Paradiesexperiment DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E16 Die Illusion DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E16 Die Illusion DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E17 Der Trill-Kandidat DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E17 Der Trill-Kandidat DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E18 Profit und Verlust DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E18 Profit und Verlust DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E19 Der Blutschwur DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E19 Der Blutschwur DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E20 Der Maquis - Teil 1 DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E20 Der Maquis - Teil 1 DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E21 Der Maquis - Teil 2 DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E21 Der Maquis - Teil 2 DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E22 Das Implantat DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E22 Das Implantat DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E23 Die andere Seite DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E23 Die andere Seite DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E24 Die Wahl des Kai DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E24 Die Wahl des Kai DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E25 Das Tribunal DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E25 Das Tribunal DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S02 E26 Der Plan des Dominion DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S02/STAR TREK DS9 S02 E26 Der Plan des Dominion DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E01 Die Suche - Teil 1 DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E01 Die Suche - Teil 1 DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E02 Die Suche - Teil 2 DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E02 Die Suche - Teil 2 DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E03 Das Haus des Quark DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E03 Das Haus des Quark DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E04 Das Equilibrium DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E04 Das Equilibrium DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E05 Die zweite Haut DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E05 Die zweite Haut DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E06 Der Ausgesetzte DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E06 Der Ausgesetzte DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E07 In der Falle DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E07 In der Falle DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E08 Meridian DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E08 Meridian DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E09 Defiant DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E09 Defiant DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E10 Das Festival DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E10 Das Festival DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E11 Gefangen in der Vergangenheit - Teil 1 DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E11 Gefangen in der Vergangenheit - Teil 1 DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E12 Gefangen in der Vergangenheit - Teil 2 DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E12 Gefangen in der Vergangenheit - Teil 2 DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E13 Der Funke des Lebens DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E13 Der Funke des Lebens DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E14 Herz aus Stein DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E14 Herz aus Stein DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E15 Trekors Prophezeiung DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E15 Trekors Prophezeiung DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E16 Das Motiv der Propheten DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E16 Das Motiv der Propheten DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E17 Der Visionär DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E17 Der Visionär DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E18 Ferne Stimmen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E18 Ferne Stimmen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E19 Durch den Spiegel DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E19 Durch den Spiegel DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E20 Der geheimnisvolle Garak - Teil 1 DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E20 Der geheimnisvolle Garak - Teil 1 DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E21 Der geheimnisvolle Garak - Teil 2 DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E21 Der geheimnisvolle Garak - Teil 2 DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E22 Die Erforscher DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E22 Die Erforscher DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E23 Familienangelegenheiten DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E23 Familienangelegenheiten DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E24 Shakaar DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E24 Shakaar DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E25 Facetten DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E25 Facetten DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-3  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S03 E26 Der Widersacher DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S03/STAR TREK DS9 S03 E26 Der Widersacher DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E01+02 Der Weg des Kriegers DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E01+02 Der Weg des Kriegers DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E03 Der Besuch DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E03 Der Besuch DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E04 Der hippokratische Eid DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E04 Der hippokratische Eid DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E05 Indiskretion DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E05 Indiskretion DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E06 Wiedervereinigt DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E06 Wiedervereinigt DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E07 Kleine grüne Männchen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E07 Kleine grüne Männchen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E08 Das Wagnis DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E08 Das Wagnis DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E09 Das Schwert des Kahless DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E09 Das Schwert des Kahless DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E10 Unser Mann Bashir DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E10 Unser Mann Bashir DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E11 Die Front DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E11 Die Front DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E12 Das verlorene Paradies DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E12 Das verlorene Paradies DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E13 Emotionen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E13 Emotionen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E14 Zu neuer Würde DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E14 Zu neuer Würde DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E15 Die Söhne von Mogh DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E15 Die Söhne von Mogh DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E16 Der Streik DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E16 Der Streik DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E17 Die Übernahme DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E17 Die Übernahme DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E18 Das Gefecht DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E18 Das Gefecht DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E19 Strafzyklen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E19 Strafzyklen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E20 Der zerbrochene Spiegel DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E20 Der zerbrochene Spiegel DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E21 Die Muse DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E21 Die Muse DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E22 In eigener Sache DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E22 In eigener Sache DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E23 Die Abtrünnigen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E23 Die Abtrünnigen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E24 Hoffnung DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E24 Hoffnung DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E25 Quarks Schicksal DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E25 Quarks Schicksal DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-4  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S04 E26 Das Urteil DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S04/STAR TREK DS9 S04 E26 Das Urteil DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E01 Die Apokalypse droht DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E01 Die Apokalypse droht DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E02 Das Schiff DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E02 Das Schiff DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E03 Gefährliche Liebschaften DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E03 Gefährliche Liebschaften DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E04 Die Schlacht um Ajilon Prime DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E04 Die Schlacht um Ajilon Prime DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E05 Die Erpressung DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E05 Die Erpressung DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E06 Immer die Last mit den Tribbles DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E06 Immer die Last mit den Tribbles DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E07 Die Reise nach Risa DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E07 Die Reise nach Risa DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E08 Die Schuld DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E08 Die Schuld DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E09 Der Aufstieg DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E09 Der Aufstieg DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E10 Heilige Visionen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E10 Heilige Visionen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E11 Dunkelheit und Licht DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E11 Dunkelheit und Licht DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E12 Das Baby DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E12 Das Baby DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E13 Für die Uniform DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E13 Für die Uniform DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E14 Die Schatten der Hölle DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E14 Die Schatten der Hölle DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E15 Im Lichte des Infernos DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E15 Im Lichte des Infernos DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E16 Dr. Bashirs Geheimnis DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E16 Dr. Bashirs Geheimnis DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E17 Der Datenkristall DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E17 Der Datenkristall DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E18 Kriegsgeschäfte DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E18 Kriegsgeschäfte DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E19 Die Überwindung DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E19 Die Überwindung DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E20 Liebe und Profit DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E20 Liebe und Profit DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E21 Martoks Ehre DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E21 Martoks Ehre DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E22 Kinder der Zeit DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E22 Kinder der Zeit DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E23 Glanz des Ruhms DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E23 Glanz des Ruhms DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E24 Empok Nor DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E24 Empok Nor DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E25 Die Karte DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E25 Die Karte DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-5  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S05 E26 Zu den Waffen! DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S05/STAR TREK DS9 S05 E26 Zu den Waffen! DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-6  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S06 E01 Zeit des Widerstands DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S06/STAR TREK DS9 S06 E01 Zeit des Widerstands DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-6  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S06 E02 Entscheidungen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S06/STAR TREK DS9 S06 E02 Entscheidungen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-6  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S06 E10 Der glorreiche Ferengi DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S06/STAR TREK DS9 S06 E10 Der glorreiche Ferengi DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-6  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S06 E22 Valiant DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S06/STAR TREK DS9 S06 E22 Valiant DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-6  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S06 E23 Die Beraterin DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S06/STAR TREK DS9 S06 E23 Die Beraterin DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-6  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S06 E24 Das Zeitportal DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S06/STAR TREK DS9 S06 E24 Das Zeitportal DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-6  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S06 E25 Der Klang ihrer Stimmei DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S06/STAR TREK DS9 S06 E25 Der Klang ihrer Stimmei DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-6  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S06 E26 Tränen der Propheten DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S06/STAR TREK DS9 S06 E26 Tränen der Propheten DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E01 Das Gesicht im Sand DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E01 Das Gesicht im Sand DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E02 Schatten und Symbole DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E02 Schatten und Symbole DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E04 Wettkampf in der Holosuite DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E04 Wettkampf in der Holosuite DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E05 Sarina DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E05 Sarina DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E07 Der Dahar-Meister DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E07 Der Dahar-Meister DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E10 Leben in der Holosuite DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E10 Leben in der Holosuite DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E11 Die verlorene Tochter DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E11 Die verlorene Tochter DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E12 Die Tarnvorrichtung DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E12 Die Tarnvorrichtung DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E13 Freies Schussfeld DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E13 Freies Schussfeld DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E14 Hirngespinst DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E14 Hirngespinst DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E15 Badda-Bing, Badda-Bang DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E15 Badda-Bing, Badda-Bang DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E17 Im Ungewissen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E17 Im Ungewissen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E18 Bis dass der Tod uns scheide DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E18 Bis dass der Tod uns scheide DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E19 Eine sonderbare Kombination DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E19 Eine sonderbare Kombination DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E20 Im Angesicht des Bösen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E20 Im Angesicht des Bösen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E21 Ein Unglück kommt selten allein DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E21 Ein Unglück kommt selten allein DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E23 Extreme Maßnahmen DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E23 Extreme Maßnahmen DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E24 In den Wirren des Krieges DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E24 In den Wirren des Krieges DVD9Rip DEU ENG SUB.mkv 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-7  | 
-Serienname:  Star Trek - DS9  | 
-Datei:  STAR TREK DS9 S07 E25+E26 Das, was du zurücklässt DVD9Rip DEU ENG SUB.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Star Trek - DS9/S07/STAR TREK DS9 S07 E25+E26 Das, was du zurücklässt DVD9Rip DEU ENG SUB.mkv 
+Serienname:  Stargate SG1 Im Spiegel der Wissenschaft  | 
+Datei:  Special Stargate.SG.1.-.Im.Spiegel.der.Wissenschaft.XviD.avi  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Stargate SG1 Im Spiegel der Wissenschaft/Special Stargate.SG.1.-.Im.Spiegel.der.Wissenschaft.XviD.avi 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
@@ -20858,60 +19864,10 @@ Serienname:  Suits  |
 Datei:  Thumbs.db  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Suits/Season.2/Thumbs.db 
 
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-01-Beyond the Sky-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/101TKN/Taken-01-Beyond the Sky-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
-
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  1  | 
 Serienname:  Taken  | 
 Datei:  Taken.nfo  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/101TKN/Taken.nfo 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-02-Jacob and Jesse-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/102TKN/Taken-02-Jacob and Jesse-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-03-High Hopes-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/103TKN/Taken-03-High Hopes-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-04-Acid Tests-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/104TKN/Taken-04-Acid Tests-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-05-Maintenance-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/105TKN/Taken-05-Maintenance-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-06-Charlie and Lisa-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/106TKN/Taken-06-Charlie and Lisa-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-07-Gods Equation-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/107TKN/Taken-07-Gods Equation-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-08-Dropping the Dishes-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/108TKN/Taken-08-Dropping the Dishes-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-09-John-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/109TKN/Taken-09-John-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  1  | 
-Serienname:  Taken  | 
-Datei:  Taken-10-Taken-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Taken/110TKN/Taken-10-Taken-DVDRIP-DivX-5.2.1-AC3-6ch-German.avi 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
@@ -20924,6 +19880,11 @@ Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Video
 Serienname:  Terra Nova  | 
 Datei:  tvs-tn-ded-dl-ithd-xvid-113.nfo  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Terra Nova/Staffel 1/Terra.Nova.S01E13.Entscheidung.German.Dubbed.DL.iTunesHD.XviD-TVS/tvs-tn-ded-dl-ithd-xvid-113.nfo 
+
+Fehlecode MM02 | Kein Staffelordner oder ähnlches | Ursache: Enthält im Namen film/movie, spe[cz]ial oder extra | Staffel  nichts  | 
+Serienname:  Testserie  | 
+Datei:  Spezial  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Testserie/Spezial 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
@@ -21381,11 +20342,6 @@ Serienname:  The 100  |
 Datei:  The.100.S05E09.HDTV.x264-SVA.de-SubCentral.srt  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The 100/Staffel 5/The.100.S05E09.HDTV.x264-SVA.de-SubCentral.srt 
 
-Fehlecode MM02 | Kein Staffelordner oder ähnlches | Ursache: Enthält im Namen film/movie, spe[cz]ial oder extra | Staffel  nichts  | 
-Serienname:  S06E06.Akt und Extrakt.mp4  | 
-Datei:  The Big Bang Theory  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Big Bang Theory 
-
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  2  | 
 Serienname:  The Flash  | 
 Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-201.nfo  | 
@@ -21491,10 +20447,70 @@ Serienname:  The Flash  |
 Datei:  tvs-the-flash-dd51-ded-dl-18p-ithd-avc-221.nfo  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Flash/The.Flash.S02E21.In.der.Speed.Force.German.DD51.Dubbed.DL.1080p.iTunesHD.AVC-TVS/tvs-the-flash-dd51-ded-dl-18p-ithd-avc-221.nfo 
 
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x01 - Willkommen in Republic City.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x01 - Willkommen in Republic City.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x02 - Wie ein Blatt im Wind.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x02 - Wie ein Blatt im Wind.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x03 - Die Enthüllung.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x03 - Die Enthüllung.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x04 - Die Stimme in der Nacht.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x04 - Die Stimme in der Nacht.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x05 - Der Geist des Wettbewerbs.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x05 - Der Geist des Wettbewerbs.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x06 - Und der Gewinner ist....mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x06 - Und der Gewinner ist....mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x07 - Das Nachspiel.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x07 - Das Nachspiel.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x08 - Wenn Extreme aufeinandertreffen.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x08 - Wenn Extreme aufeinandertreffen.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x09 - Aus der Vergangenheit.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x09 - Aus der Vergangenheit.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x10 - Das Blatt wendet sich.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x10 - Das Blatt wendet sich.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x11 - Eine Leiche im Keller.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x11 - Eine Leiche im Keller.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - 01x12 - Endspiel.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - 01x12 - Endspiel.mkv 
+
 Fehlecode MM02 | Kein Staffelordner oder ähnlches | Ursache: Enthält im Namen film/movie, spe[cz]ial oder extra | Staffel  nichts  | 
-Serienname:  Die Legende von Korra - Extra.mkv  | 
-Datei:  The Legend of Korra  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra 
+Serienname:  The Legend of Korra  | 
+Datei:  Die Legende von Korra - Extra.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Legend of Korra/Die Legende von Korra - Extra.mkv 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 4  | 
@@ -21567,6 +20583,12 @@ Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Video
 Serienname:  The.Middle  | 
 Datei:  nfo.nfo  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The.Middle/Staffel.4/TMG.418/nfo.nfo 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
+4  | 
+Serienname:  The.Middle  | 
+Datei:  TMGDL.40102.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The.Middle/Staffel.4/TMGDL.40102/TMGDL.40102.mkv 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 4  | 
@@ -22556,135 +21578,135 @@ Datei:  tvs-the-tunnel-sed-dl-bd-x264-110.nfo  |
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Tunnel/S1/The.Tunnel.S01E10.Das.Ende.German.Synced.DL.BD.x264-TVS/tvs-the-tunnel-sed-dl-bd-x264-110.nfo 
 
 Fehlecode MM02 | Kein Staffelordner oder ähnlches | Ursache: Enthält im Namen film/movie, spe[cz]ial oder extra | Staffel  nichts  | 
-Serienname:  Special The Walking Death Webisodes  | 
-Datei:  TheWalking Dead  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead 
+Serienname:  The Walking Dead  | 
+Datei:  Special The Walking Death Webisodes  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Special The Walking Death Webisodes 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  Thumbs.db  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 1/The.Walking.Dead.S01E01/Thumbs.db 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 1/The.Walking.Dead.S01E01/Thumbs.db 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  itg-dead-s01e01u.srt  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 1/The.Walking.Dead.S01E01/Subs/itg-dead-s01e01u.srt 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 1/The.Walking.Dead.S01E01/Subs/itg-dead-s01e01u.srt 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um eine Sampledatei | Staffel  
 1  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  itg-dead-s01e01u-sample.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 1/The.Walking.Dead.S01E01/Sample/itg-dead-s01e01u-sample.avi 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 1/The.Walking.Dead.S01E01/Sample/itg-dead-s01e01u-sample.avi 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  itg-deaduncut-s01e01.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 1/The.Walking.Dead.S01E01/itg-deaduncut-s01e01.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 1/The.Walking.Dead.S01E01/itg-deaduncut-s01e01.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  itg-dead-s01e03.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 1/The.Walking.Dead.S01E03/The.Walking.Dead.S01E03.German.Dubbed.HDTV.XviD-ITG/itg-dead-s01e03.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 1/The.Walking.Dead.S01E03/The.Walking.Dead.S01E03.German.Dubbed.HDTV.XviD-ITG/itg-dead-s01e03.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  itg-dead-s01e04.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 1/The.Walking.Dead.S01E04/The.Walking.Dead.S01E04.German.Dubbed.HDTV.XviD-ITG/itg-dead-s01e04.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 1/The.Walking.Dead.S01E04/The.Walking.Dead.S01E04.German.Dubbed.HDTV.XviD-ITG/itg-dead-s01e04.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  itg-wade-s02e08.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/The.Walking.Dead.S02E08.Nebraska.German.HDTV.XviD-ITG/itg-wade-s02e08.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/The.Walking.Dead.S02E08.Nebraska.German.HDTV.XviD-ITG/itg-wade-s02e08.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  zzgtv-wade-s02e10.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/The.Walking.Dead.S02E10.Ausgesetzt.GERMAN.HDTV.720p.x264-ZZGtv/zzgtv-wade-s02e10.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/The.Walking.Dead.S02E10.Ausgesetzt.GERMAN.HDTV.720p.x264-ZZGtv/zzgtv-wade-s02e10.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  itg-wade-s02e13.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/The.Walking.Dead.S02E13.Die.Mahd.German.Dubbed.HDTV.XviD-ITG/itg-wade-s02e13.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/The.Walking.Dead.S02E13.Die.Mahd.German.Dubbed.HDTV.XviD-ITG/itg-wade-s02e13.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  The.Walking.Dead.S02E01.Episode1.GERMAN.DUBBED.WS.720p.HDTV.x264-euHD.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/TwD-201-euHD/The.Walking.Dead.S02E01.Episode1.GERMAN.DUBBED.WS.720p.HDTV.x264-euHD.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/TwD-201-euHD/The.Walking.Dead.S02E01.Episode1.GERMAN.DUBBED.WS.720p.HDTV.x264-euHD.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  The.Walking.Dead.S02E02.Bloodletting.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/TwD-202-ZZGtv/The.Walking.Dead.S02E02.Bloodletting.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/TwD-202-ZZGtv/The.Walking.Dead.S02E02.Bloodletting.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  The.Walking.Dead.S02E03.Die.letzte.Kugel.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/TwD-203-ZZGtv/The.Walking.Dead.S02E03.Die.letzte.Kugel.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/TwD-203-ZZGtv/The.Walking.Dead.S02E03.Die.letzte.Kugel.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  The.Walking.Dead.S02E04.Cherokee.Rose.GERMAN.HDTV.720p.x264-ZZGtv.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/TwD-204-ZZGtv/The.Walking.Dead.S02E04.Cherokee.Rose.GERMAN.HDTV.720p.x264-ZZGtv.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/TwD-204-ZZGtv/The.Walking.Dead.S02E04.Cherokee.Rose.GERMAN.HDTV.720p.x264-ZZGtv.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  The.Walking.Dead.S02E06.Secrets.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/TwD-206-ZZGtv/The.Walking.Dead.S02E06.Secrets.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/TwD-206-ZZGtv/The.Walking.Dead.S02E06.Secrets.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  The.Walking.Dead.S02E07.Pretty.Much.Dead.Already.GERMAN.HDTV.720p.x264-ZZGtv.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/TwD-207-ZZGtv/The.Walking.Dead.S02E07.Pretty.Much.Dead.Already.GERMAN.HDTV.720p.x264-ZZGtv.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/TwD-207-ZZGtv/The.Walking.Dead.S02E07.Pretty.Much.Dead.Already.GERMAN.HDTV.720p.x264-ZZGtv.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  The.Walking.Dead.S02E08.Nebraska.GERMAN.HDTV.720p.x264-ZZGtv.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/TwD-208-ZZGtv/The.Walking.Dead.S02E08.Nebraska.GERMAN.HDTV.720p.x264-ZZGtv.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/TwD-208-ZZGtv/The.Walking.Dead.S02E08.Nebraska.GERMAN.HDTV.720p.x264-ZZGtv.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  zzgtv-wade-s02e12.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 2/TwD.7p.S01E12.ZZGTv/zzgtv-wade-s02e12.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 2/TwD.7p.S01E12.ZZGTv/zzgtv-wade-s02e12.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um eine Sampledatei | Staffel  
 3  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  zzgtv-thewalkingdead-s03e13-sample.mkv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 3/Te.Ded.7p.S03E13.ZZGtv/The.Walking.Dead.S03E13.Das.Ultimatum.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv/Sample/zzgtv-thewalkingdead-s03e13-sample.mkv 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 3/Te.Ded.7p.S03E13.ZZGtv/The.Walking.Dead.S03E13.Das.Ultimatum.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv/Sample/zzgtv-thewalkingdead-s03e13-sample.mkv 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 3  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  zzgtv-thewalkingdead-s03e13.sfv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 3/Te.Ded.7p.S03E13.ZZGtv/The.Walking.Dead.S03E13.Das.Ultimatum.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv/zzgtv-thewalkingdead-s03e13.sfv 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 3/Te.Ded.7p.S03E13.ZZGtv/The.Walking.Dead.S03E13.Das.Ultimatum.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv/zzgtv-thewalkingdead-s03e13.sfv 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 3  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  zzgtv-thewalkingdead-s03e04.nfo  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 3/The.Walking.Dead.S03E04.Leben.und.Tod.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv/zzgtv-thewalkingdead-s03e04.nfo 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 3/The.Walking.Dead.S03E04.Leben.und.Tod.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv/zzgtv-thewalkingdead-s03e04.nfo 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 3  | 
-Serienname:  TheWalking Dead  | 
+Serienname:  The Walking Dead  | 
 Datei:  zzgtv-thewalkingdead-s03e12.sfv  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/TheWalking Dead/Staffel 3/TWD.7p.S03E12.ZZGtv/The.Walking.Dead.S03E12.Gesichter.der.Toten.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv/zzgtv-thewalkingdead-s03e12.sfv 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Walking Dead/Staffel 3/TWD.7p.S03E12.ZZGtv/The.Walking.Dead.S03E12.Gesichter.der.Toten.GERMAN.DUBBED.720p.HDTV.x264-ZZGtv/zzgtv-thewalkingdead-s03e12.sfv 
 
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 1  | 
@@ -24912,6 +23934,196 @@ Serienname:  The Wire  |
 Datei:  the.wire.s05e10.german.dl.720p.bluray.x264-intention.nfo  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/The Wire/S05/The.Wire.S05E10.German.DL.720p.BluRay.x264-iNTENTiON/the.wire.s05e10.german.dl.720p.bluray.x264-intention.nfo 
 
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.01.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.01.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.02.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.02.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.03.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.03.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.04.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.04.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.05.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.05.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.06.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.06.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.07.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.07.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.08.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.08.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.09.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.09.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.10.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.10.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.11.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.11.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  Motto.To.Love.Ru.Trouble.Ep.12.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/Motto.To.Love.Ru.Trouble.Ep.12.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.01.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.01.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.02.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.02.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.03.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.03.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.04.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.04.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.05.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.05.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.06.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.06.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.07.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.07.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.08.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.08.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.09.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.09.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.10.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.10.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.11.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.11.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.12.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.12.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.13.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.13.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.14.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.14.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.15.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.15.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.16.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.16.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.17.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.17.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.18.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.18.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.19.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.19.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.20.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.20.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.21.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.21.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.22.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.22.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.23.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.23.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.24.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.24.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.25.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.25.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
+Fehlecode MM03 | Taufe nicht möglich | Ursache: Staffelnummer konnte nicht extrahiert werden | Staffel    | 
+Serienname:  To Love-Ru  | 
+Datei:  To.Love-Ru.Trouble.Ep.26.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv  | 
+Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/To Love-Ru/To.Love-Ru.Trouble.Ep.26.German.DTS.DL.1080p.BluRay.x264-AST4u.mkv 
+
 Fehlecode MM00 | Datei/Ordner entfernt | Ursache: Es handelt sich um keine Videodatei | Staffel  
 2  | 
 Serienname:  True Blood  | 
@@ -25203,218 +24415,8 @@ Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/True Blood/
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 1  | 
 Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E01 - Die, in der ich meine Freiheit verliere.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E01 - Die, in der ich meine Freiheit verliere.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E02 - Die, in der ich keine Schwester will.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E02 - Die, in der ich keine Schwester will.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E04 - Die, in der ich keine Freunde finde.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E04 - Die, in der ich keine Freunde finde.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E05 - Die, in der sich Axel in meine Familie verliebt.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E05 - Die, in der sich Axel in meine Familie verliebt.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E06 - Die, mit den Geheimnissen.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E06 - Die, mit den Geheimnissen.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E07 - Die, in der ich leider erwachsen werde.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E07 - Die, in der ich leider erwachsen werde.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E08 - Die, in der ich keine Gefühle habe.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E08 - Die, in der ich keine Gefühle habe.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E09 - Die, in der Axel ständig grün ist.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E09 - Die, in der Axel ständig grün ist.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E10 - Die, in der ich voll okay bin.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E10 - Die, in der ich voll okay bin.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E11 - Die, in der mich der Wolf kriegt.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E11 - Die, in der mich der Wolf kriegt.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 1 - E12 - Die, in der es nur einen geben kann.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - E12 - Die, in der es nur einen geben kann.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-1  | 
-Serienname:  Türkisch für anfänger  | 
 Datei:  Türkisch für Anfänger - Staffel 1 - Extras.avi  | 
 Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 1/Türkisch für Anfänger - Staffel 1 - Extras.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E13 - Die, in der Frauen schwach werden.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E13 - Die, in der Frauen schwach werden.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E14 - Die mit dem Abschiedskuss.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E14 - Die mit dem Abschiedskuss.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E15 - Die mit dem Perpetuum Mobile.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E15 - Die mit dem Perpetuum Mobile.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E16 - Die mit Sex und Pistols.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E16 - Die mit Sex und Pistols.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E17 - Die, in der Cem keine Wurst sein will.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E17 - Die, in der Cem keine Wurst sein will.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E18 - Die in der ich Kitschi-Gänsehaut kriege.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E18 - Die in der ich Kitschi-Gänsehaut kriege.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E19 - Die, ich der Yagmur ihren ersten Kuss kriegt.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E19 - Die, ich der Yagmur ihren ersten Kuss kriegt.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E20 - Die, in der ich Mama wahnsinnig mache.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E20 - Die, in der ich Mama wahnsinnig mache.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E21 - Die, in der Cem Rotlicht sieht.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E21 - Die, in der Cem Rotlicht sieht.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E22 - Die, in der ich ein Kranich bin.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E22 - Die, in der ich ein Kranich bin.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E23 - Die, in der Metin fremdgeht.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E23 - Die, in der Metin fremdgeht.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.1 - E24 - Die, in der der Osterhase böse war.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.1 - E24 - Die, in der der Osterhase böse war.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E25 - Die, in der alle hysterisch werden.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E25 - Die, in der alle hysterisch werden.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E26 - Die mit when a Metin loves a woman.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E26 - Die mit when a Metin loves a woman.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E27 - Die, in der alle K..K.Komplexe haben.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E27 - Die, in der alle K..K.Komplexe haben.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E28 - Die, in der Ulla kommt.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E28 - Die, in der Ulla kommt.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E29 - Die, in der ich mich für meine Familie schäme.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E29 - Die, in der ich mich für meine Familie schäme.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E30 - Die, mit dem Ex in der City.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E30 - Die, mit dem Ex in der City.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E31 - Die mit Grillen in Honig.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E31 - Die mit Grillen in Honig.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E32 - Die, in der Costa den Lukas haut.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E32 - Die, in der Costa den Lukas haut.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E33 - Die, in der es La Boomt.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E33 - Die, in der es La Boomt.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E34 - Die, in der die Fete nicht weiter geht.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E34 - Die, in der die Fete nicht weiter geht.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E35 - Die, in der Metin die Schnauze voll hat.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E35 - Die, in der Metin die Schnauze voll hat.avi 
-
-Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
-2  | 
-Serienname:  Türkisch für anfänger  | 
-Datei:  Türkisch für Anfänger - Staffel 2.2 - E36 - Die, nach der schon alles vorbei sein soll.avi  | 
-Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Türkisch für anfänger/Staffel 2/Türkisch für Anfänger - Staffel 2.2 - E36 - Die, nach der schon alles vorbei sein soll.avi 
 
 Fehlecode MM03 | Taufe nicht möglich | Ursache: Folgennummer konnte nicht extrahiert werden | Staffel  
 2  | 
@@ -28430,12 +27432,12 @@ Pfad:  /media/5f131047-b830-4d89-88f3-f139bebfdef6/Multimedia/Serien/Z-Nation/S1
 
 ----------------------------------------------------------------
 
-Erfolgreich bearbetet | elapsed time: 814 seconds
+Erfolgreich bearbetet | elapsed time: 817 seconds
 
 bearbeitete Serien: 99
 
-bearbeitete Staffeln: 329
+bearbeitete Staffeln: 331
 
-bearbeitete Folgen: 5654
+bearbeitete Folgen: 5675
 
 gesamt Größe gelöschter Objekte: 5825921535 Bytes

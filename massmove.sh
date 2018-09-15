@@ -160,7 +160,7 @@ function IfDoppelfolgeReturnTrue
 	else
 
 		# Suche zweite EP Nummer in Datei  
-		echo "$DOPPEL_EXTFOLGE" | grep -E -i "([efx]|ep\.?)$EPNR2"
+		echo "$DOPPEL_EXTFOLGE" | grep -E -i "([^a-z][efx]|ep\.?)$EPNR2"
 		DOPPELCHECK=$?
 
 		echo "HIER 0 = $EPNR" >&2
@@ -172,7 +172,7 @@ function IfDoppelfolgeReturnTrue
 				DIRSTRING=$( basename "$DIRSTRING" )
 				DIRSTRING=$(EntferneUnnoetigeStringTeile "$DIRSTRING" "$DOPPEL_SERIE")
 
-				echo "$DIRSTRING" | grep -E -i "([efx]|ep\.?)$EPNR2"
+				echo "$DIRSTRING" | grep -E -i "([^a-z][efx]|ep\.?)$EPNR2"
 				DOPPELCHECK=$?
 
 			fi
@@ -247,7 +247,7 @@ function ExtrahiereFolgennummerAusDatei
 
 	EPNR=$(EntferneUnnoetigeStringTeile "$EXTRAKT_DATEI" "$EXTRAKT_SERIE")
 	
-	EPNR=$(echo "$EPNR" | grep -E -o -i "([0-9][0-9]\.?[efx]|ep\.?)[0-9][0-9]" | grep -E -o -i "([efx]|ep\.?)[0-9][0-9]" | grep -E -o "[0-9][0-9]{0,2}")
+	EPNR=$(echo "$EPNR" | grep -E -o -i "([0-9][0-9]\.? ?[efx]|ep\.?)[0-9][0-9]" | grep -E -o -i "([efx]|ep\.?)[0-9][0-9]" | grep -E -o "[0-9][0-9]{0,2}")
 	EPNRCHECK=$?
 
 	EPNR=$(echo $EPNR | sed q | cut -d' ' -f 1) # Nimm erste zeile
@@ -542,6 +542,32 @@ function EntferneUnnoetigeStringTeile
 	EXTFOLGE=${EXTFOLGE//X265/}
 	EXTFOLGE=${EXTFOLGE//H265/}
 
+	EXTFOLGE=${EXTFOLGE//part.1/}
+	EXTFOLGE=${EXTFOLGE//Part.1/}
+	EXTFOLGE=${EXTFOLGE//part.2/}
+	EXTFOLGE=${EXTFOLGE//Part.2/}
+	EXTFOLGE=${EXTFOLGE//part.3/}
+	EXTFOLGE=${EXTFOLGE//Part.3/}
+	EXTFOLGE=${EXTFOLGE//part 1/}
+	EXTFOLGE=${EXTFOLGE//Part 1/}
+	EXTFOLGE=${EXTFOLGE//part 2/}
+	EXTFOLGE=${EXTFOLGE//Part 2/}
+	EXTFOLGE=${EXTFOLGE//part 3/}
+	EXTFOLGE=${EXTFOLGE//Part 3/}
+
+	EXTFOLGE=${EXTFOLGE//teil.1/}
+	EXTFOLGE=${EXTFOLGE//Teil.1/}
+	EXTFOLGE=${EXTFOLGE//teil.2/}
+	EXTFOLGE=${EXTFOLGE//Teil.2/}
+	EXTFOLGE=${EXTFOLGE//teil.3/}
+	EXTFOLGE=${EXTFOLGE//Teil.3/}
+	EXTFOLGE=${EXTFOLGE//teil 1/}
+	EXTFOLGE=${EXTFOLGE//Teil 1/}
+	EXTFOLGE=${EXTFOLGE//teil 2/}
+	EXTFOLGE=${EXTFOLGE//Teil 2/}
+	EXTFOLGE=${EXTFOLGE//teil 3/}
+	EXTFOLGE=${EXTFOLGE//Teil 3/}
+
 	EXTFOLGE=${EXTFOLGE#$SERIENNAME1}
 	SERIENNAME2=${SERIENNAME1,,}
 	EXTFOLGE=${EXTFOLGE#$SERIENNAME2}
@@ -584,11 +610,10 @@ function IfZweiOderDreiStelligReturnTrue
 	local STNR
 	
   	echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - Wenn gültige 2 oder 3 stellige Nummer return 0 (True)" >&2
-
+ clmb0101
 	EPNR=$(EntferneUnnoetigeStringTeile "$ZWEIDREI_DATEI" "$ZWEIDREI_SERIE")
+	EPNR=$(echo "$EPNR" | grep -E -o -i "[0-9]{2,4}")
 
-	EPNR=$(basename "$EPNR" | grep -E -o -i "[0-9][0-9]{0,2}")
-	
 	if [[ $EPNR =~ ^[0-9]{2,2}$ ]]; then # Wenn zweistellige Nummer, dann...
 
 		EPNR=$( echo $EPNR | cut -d' ' -f 1 | sed "s/^0*//" )
@@ -596,7 +621,7 @@ function IfZweiOderDreiStelligReturnTrue
 
 	else
 
-		EPNR=$(basename "$EPNR" | grep -E -o -i "[0-9]{3,3}")
+		#EPNR=$(echo "$EPNR" | grep -E -o -i "[0-9]{3,3}")
 		#EPNR=$("$EPNR" | cut -d' ' -f 1)
 		if [[ $EPNR =~ ^[0-9]{3,3}$ ]]; then # Wenn dreistellige Nummer, dann...
 
@@ -624,11 +649,17 @@ function IfZweiOderDreiStelligReturnTrue
 	echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - EP Nummer = $EPNR" >&2
 	echo ">>>>IfZweiOderDreiStelligReturnTrue<<<< - ST Nummer = $STNR" >&2
 
-	if [ "$ZWEIDREI_STNR" != "ERROR" ]; then # Prüfung ob IfZweiOderDreiStelligReturnTrue von PruefeDateiFuerStaffel aufgerufen wurde, wenn ja kein Logging
+	if [ "$ZWEIDREI_STNR" != "ERROR" ]; then # Prüfung ob IfZweiOderDreiStelligReturnTrue von PruefeDateiFuerStaffel aufgerufen wurde, wenn ja gebe STNR aus
 
 		echo "$EPNR"
 
 	else
+
+		if [ "$STNR" == "" ]; then # Prüfung ob STNR extrahiert werden konnte
+
+			ZWEIDREICHECK=1
+
+		fi
 
 		echo "$STNR"
 
@@ -953,10 +984,15 @@ function IfStaffelReturnTrue
 		STNR=${STNR//h265/}
 		STNR=$(echo "$STNR" | sed "s/[0-9]\+\-[0-9]\+//")
 		STNR=$(echo "$STNR" | grep -E -o -i "[0-9][0-9]{0,2}")
-		STNR=$(echo $STNR | sed "s/^0*//")
-		
+
+		if [ "$STNR" != "0" ]; then # Wenn Staffelnummer nicht Null ist, dann schneide führende Null aus
+
+			STNR=$(echo $STNR | sed "s/^0*//")
+
+		fi
+
 		COUNT=${#STNR}
-		if [ $COUNT -le 2 ]; then # Wenn weniger oder gleich 2 Digits, dann 
+		if [ $COUNT -le 2 ] && [ $COUNT -ne 0 ]; then # Wenn weniger oder gleich 2 Digits, dann Staffel OK
 
 			STCHECK=0
 
@@ -967,7 +1003,8 @@ function IfStaffelReturnTrue
 		STCHECK=1
 
 	fi
-		
+
+
 	# Prüfe ob die Datei oder der Ordner eine Folge ist, wenn Ja > Staffel = False
 	if [ $STCHECK -eq 0 ]; then
 
@@ -1154,12 +1191,30 @@ function IfExtraContentReturnTrue
 
 	else
 
-		echo "Es handelt sich bei $( basename "$CONT_DATEI" ) um keine Serie bzw. Spezialcontent" >&2
-		SchreibeInLogdatei "$CONT_SERIE" "nichts" "$CONT_DATEI" "2" "Enthält im Namen film/movie, spe[cz]ial oder extra"
-
 	EXTRASCHECK=0
 
 	fi
+
+	# Prüfe ob die Datei oder der Ordner eine gültige Folge ist, wenn Ja > Content = False
+	if [ $EXTRASCHECK -eq 0 ]; then
+
+		ExtrahiereFolgennummerAusDatei "$CONT_DATEI" "$CONT_SERIE" "1"
+		if [ $? -eq 0 ]; then
+
+			EXTRASCHECK=1
+
+		else
+
+			EXTRASCHECK=0
+
+			echo "Es handelt sich bei $( basename "$CONT_DATEI" ) um keine Serie bzw. Spezialcontent" >&2
+			SchreibeInLogdatei "$CONT_DATEI" "nichts" "$CONT_SERIE" "2" "Enthält im Namen film/movie, spe[cz]ial oder extra"
+
+		fi
+
+	fi
+
+
 
 	echo ">>>>IfExtraContentReturnTrue<<<< - Return = $EXTRASCHECK" >&2
 
@@ -1222,9 +1277,9 @@ function MittlereSchleife_Staffeln
 	local STAFFEL
 	local EPNR
 	local STNR
-	local CHECKSTAFFEL
-	local CHECKXCONTENT
-	local CHECKFOLGEOK
+	local CHECKSTAFFEL=1
+	local CHECKXCONTENT=1
+	local CHECKFOLGEOK=1
 	local OLDSTNR=0
 	declare -a STAFFELARRAY=()
 	local ZAEHLER=0
@@ -1238,10 +1293,12 @@ function MittlereSchleife_Staffeln
 
 			STNR=$(IfStaffelReturnTrue "$STAFFEL" "$SERIE_1")
 			CHECKSTAFFEL=$?
-			IfExtraContentReturnTrue "$STAFFEL" "$SERIE_1"
-			CHECKXCONTENT=$?
+			if [ $CHECKSTAFFEL -eq 1 ]; then # Wenn letzter Rückgabe Wert 0 (Success) dann...
+				IfExtraContentReturnTrue "$STAFFEL" "$SERIE_1"
+				CHECKXCONTENT=$?
+			fi
 
-			if [ $CHECKSTAFFEL -eq 0 ] && [ $CHECKXCONTENT -eq 1 ]; then # Wenn letzter Rückgabe Wert 0 (Success) dann...
+			if [ $CHECKSTAFFEL -eq 0 ]; then # Wenn letzter Rückgabe Wert 0 (Success) dann...
 
 				let SEASONCOUNT=SEASONCOUNT+1  # Zähler für Endprotokoll
 
@@ -1256,15 +1313,26 @@ function MittlereSchleife_Staffeln
 					echo "Erstellen von Staffelordnern notwendig"  >&2
 
 					STNR=$(PruefeDateiFuerStaffel "$STAFFEL" "$SERIE_1")
+					CHECKSTAFFEL=$?
 					EPNR=$(PruefeDateiFuerFolge "$STAFFEL" "$STNR" "$SERIE_1" "$CHECKSTAFFEL")
 					CHECKFOLGEOK=$?
-					case $CHECKFOLGEOK in
 
-						0) 	printout "$SERIE_1" "$STNR" "$EPNR" "$STAFFEL" "1" ;;
-						1) 	echo "Es Konnte keine Folgennummer extrahiert werden." >&2 ;;
-						2) 	printout "$SERIE_1" "$STNR" "$EPNR" "$STAFFEL" "0" ;;
-																
-					esac
+					if [ $CHECKSTAFFEL -eq 0 ]; then
+						case $CHECKFOLGEOK in
+
+							0) 	printout "$SERIE_1" "$STNR" "$EPNR" "$STAFFEL" "1" ;;
+							1) 	echo "Es Konnte keine Folgennummer extrahiert werden." >&2 ;;
+							2) 	printout "$SERIE_1" "$STNR" "$EPNR" "$STAFFEL" "0" ;;
+																	
+						esac
+
+					else
+						if [ $CHECKFOLGEOK -eq 0 ] || [ $CHECKFOLGEOK -eq 2 ]; then
+						
+							SchreibeInLogdatei "$STAFFEL" "$STNR" "$SERIE_1" "3" "Staffelnummer konnte nicht extrahiert werden"
+
+						fi
+					fi
 
 					# Staffelordner erstellen
 					# Datei nehmen und in Staffelordner verschieben
@@ -1335,7 +1403,7 @@ local SERIE
 local CHECKBLACKLIST
 local CHECKXCONTENT
 
-for SERIE in $SEARCHPATH*; do # SERIEN SCHLEIFE - Für jedes gefundene Element im angegebenen Pfad einen Schleifendurchlauf
+for SERIE in $SEARCHPATH; do # SERIEN SCHLEIFE - Für jedes gefundene Element im angegebenen Pfad einen Schleifendurchlauf
 
 echo "Loop 1 - Datei:" $(basename "$SERIE")  >&2
 
@@ -1404,6 +1472,9 @@ fi
 #-----------------------------------------------------------------------------------------
 # EINSTIEGSPUNKT - Eroierung des Pfades und der Opionen#
 #-----------------------------------------------------------------------------------------
+function Einstieg
+{
+
 if [ -z "$2" ]; then # Wenn der String ($2 = 2. Aufrufparameter) leer ist dann setze Pfad wo Skript liegt.
 
     SEARCHPATH="."
@@ -1438,20 +1509,106 @@ if [ -n "$1" ]; then # Wenn der String ($1 = 1. Aufrufparameter) nicht leer ist 
 
 fi
 
-# Entscheidung - Testmodus oder Echtmodus?
-if [ "$1" = "-notest" ] || [ "$2" = "-notest" ] || [ "$3" = "-notest" ] || [ "$4" = "-notest" ] || [ "$5" = "-notest" ]; then # Wenn der einer der Aufrufparameter -notest enthält führe Programm im Echtmodus aus
+# # Entscheidung - Testmodus oder Echtmodus?
+# if [ "$1" = "-notest" ] || [ "$2" = "-notest" ] || [ "$3" = "-notest" ] || [ "$4" = "-notest" ] || [ "$5" = "-notest" ]; then # Wenn der einer der Aufrufparameter -notest enthält führe Programm im Echtmodus aus
 
-    TESTMODUS=0
+#     TESTMODUS=0
 
-fi
+# fi
 
-# Entscheidung - Testmodus oder Echtmodus?
-if [ "$1" = "-delonly" ] || [ "$2" = "-delonly" ] || [ "$3" = "-delonly" ] || [ "$4" = "-delonly" ] || [ "$5" = "-delonly" ]; then # Wenn der einer der Aufrufparameter -notest enthält führe Programm im Echtmodus aus
+# # Entscheidung - Testmodus oder Echtmodus?
+# if [ "$1" = "-delonly" ] || [ "$2" = "-delonly" ] || [ "$3" = "-delonly" ] || [ "$4" = "-delonly" ] || [ "$5" = "-delonly" ]; then # Wenn der einer der Aufrufparameter -notest enthält führe Programm im Echtmodus aus
 
-    DELONLY=0
+#     DELONLY=0
 
-fi
+# fi
 ObersteSchleife_Serien # Los gehts
+}
+
+
+#-----------------------------------------------------------------------------------------
+# EINSTIEGSPUNKT - Eroierung des Pfades und der Opionen
+#-----------------------------------------------------------------------------------------
+
+# Input Usage   ./massmove.sh -notest -s "Akte X" -p /Media/Serien/
+#	
+
+POSITIONAL=()
+while [[ $# -gt 0 ]]
+do
+	key="$1"
+
+	case $key in
+		-p|--searchpath)
+		SEARCHPATH="$2"
+		shift # past argument
+		shift # past value
+		;;
+		-s|--string)
+		SEARCHCHAR="$2"
+		shift # past argument
+		shift # past value
+		;;
+		-notest)
+		NOTEST="$2"
+		shift # past argument
+		;;
+		--help)
+		HELP=0
+		shift # past argument
+		;;
+		--default)
+		DEFAULT=YES
+		shift # past argument
+		;;
+		*)    # unknown option
+		POSITIONAL+=("$1") # save it in an array for later
+		shift # past argument
+		;;
+	esac
+done
+
+set -- "${POSITIONAL[@]}" # restore positional parameters
+
+echo NOTEST			= "${NOTEST}"
+echo SEARCHPATH		= "${SEARCHPATH}"
+echo SEARCHCHAR		= "${SEARCHCHAR}"
+echo HELP			= "${HELP}"
+echo DEFAULT        = "${DEFAULT}"
+
+if [[ -n $1 ]]; then
+
+    echo "Last line of file specified as non-opt/last argument:"
+    tail -1 "$1"
+
+fi
+
+if [[ -n $SEARCHCHAR ]]; then
+
+	SEARCHPATH="$SEARCHPATH""$SEARCHCHAR"
+	echo "1 " "$SEARCHPATH" >&2
+
+	if [[ -d $SEARCHPATH ]]; then
+
+		SEARCHPATH="$SEARCHPATH"
+		echo "2 " "$SEARCHPATH" >&2
+
+	else
+
+		SEARCHPATH="$SEARCHPATH*"
+		echo "3 " "$SEARCHPATH" >&2
+	fi
+
+else
+
+	 SEARCHPATH="$SEARCHPATH*"
+	echo "4 " "$SEARCHPATH" >&2
+
+fi
+
+ObersteSchleife_Serien
+
+#Einstieg
 
 #-----------------------------------------------------------------------------------------
 # AUSSTIEGSPUNKT
